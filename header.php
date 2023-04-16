@@ -23,61 +23,91 @@
 <body <?php body_class(); ?>>
 <?php wp_body_open(); ?>
 	<div class="page">
-		<div class="d-block d-md-none">
-			<a id="my-button" href="#my-menu">open menu</a>
-			<?php
-				wp_nav_menu( array(
-					'theme_location'    => 'menu-1',
-					'depth'             => 2,
-					'container'         => 'nav',
-					// 'container_class'   => 'collapse navbar-collapse',
-					'container_id'      => 'my-menu',
-					'menu_class'        => '',
-				) );
-			?>
-			<!-- <nav id="my-menu">
-			<ul>
-				<li><a href="/">Home</a></li>
-			</ul>
-			</nav> -->
-		</div>
-		<div class="d-none d-md-flex">
-			<nav class="navbar navbar-expand-md navbar-light bg-light" role="navigation">
-				<div class="container">
-					<!-- Brand and toggle get grouped for better mobile display -->
-					<!-- <button id="button" class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#bs-example-navbar-collapse-1" aria-controls="bs-example-navbar-collapse-1" aria-expanded="false" aria-label="<?php esc_attr_e( 'Toggle navigation', 'your-theme-slug' ); ?>">
-						<span class="navbar-toggler-icon"></span>
-					</button> -->
-					<a class="navbar-brand" href="#">Navbar</a>
-						<?php
-						wp_nav_menu( array(
-							'theme_location'    => 'menu-1',
-							'depth'             => 2,
-							'container'         => 'nav',
-							'container_class'   => 'collapse navbar-collapse',
-							'container_id'      => 'menu',
-							'menu_class'        => 'nav navbar-nav',
-							// 'fallback_cb'       => 'WP_Bootstrap_Navwalker::fallback',
-							// 'walker'            => 'new WP_Bootstrap_Navwalker()',
-							
-							// wp_nav_menu(
-							// 	array(
-							// 	'theme_location' => 'menu-1',
-							// 	'menu'              => "primary", // (int|string|WP_Term) Desired menu. Accepts a menu ID, slug, name, or object.
-							// 	'menu_class'        => "flex flex-col lg:flex-row py-5 lg:py-0 lg:items-center gap-4 lg:gap-5 text-center md:max-w-lg lg:max-w-full mx-auto", // (string) CSS class to use for the ul element which forms the menu. Default 'menu'.
-							// 	'container'         => "nav", // (string) Whether to wrap the ul, and what to wrap it with. Default 'div'.
-							// 	'container_class'   => "menu-container menu bg-white hidden lg:flex",
-							// 	'link_before'       => '<li class="font-semibold capitalize cursor-pointer">', // (string) Text before the link text.
-							// 	'link_after'        => '</li>', // (string) Text after the link text.
-							// 	'depth'             => "2", // (int) How many levels of the hierarchy are to be included. 0 means all. Default 0.
-							// 	// 'theme_location'    => "top-menu", // (string) Theme location to be used. Must be registered with register_nav_menu() in order to be selectable by the user.
-							// 	'item_spacing'      => "discard", // (string) Whether to preserve whitespace within the menu's HTML. Accepts 'preserve' or 'discard'. Default 'preserve'.
-							// 	)
-							// );
-						) );
-						?>
+
+	<header id="masthead" class="site-header ttm-header-style-01">
+		<!-- topbar -->
+		<div class="top_bar ttm-bgcolor-darkgrey clearfix">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-12">
+						<div class="row">
+							<div class="col-lg-6">
+								<div class="top_bar_contact_item">
+									<div class="top_bar_icon"><i class="flaticon flaticon-placeholder"></i></div>
+									<div class="top_bar_content">81 Bank Road Saginaw, MI 48601</div>
+								</div>
+								<div class="top_bar_contact_item">
+									<div class="top_bar_icon"><i class="flaticon flaticon-envelope"></i></div>
+									<div class="top_bar_content"> <a href="mailto:info@example.com">info@example.com</a></div>
+								</div>
+							</div>
+							<div class="col-lg-6">
+								<div class="contact-info">
+									<div class="top_bar_contact_item top_bar_social ml-auto p-0">
+										<ul class="social-icons d-flex">
+											<li>
+												<a class="ttm-social-facebook" href="https://www.facebook.com/themetechMount18" rel="noopener" aria-label="facebook"><i class=" fa fa-facebook-f"></i></a></li>
+											<li>
+												<a class="ttm-social-twitter" href="https://twitter.com/themetechmount" rel="noopener" aria-label="twitter"><i class="fa fa-twitter"></i></a></li>
+											<li>
+												<a class="ttm-social-linkedin" href="https://www.linkedin.com/company/themetech-mount/" rel="noopener" aria-label="google"><i class="fa fa-linkedin"></i></a></li>
+											<li>
+												<a class="ttm-social-pinteres" href="https://in.pinterest.com/themetechmount/_created/" rel="noopener" aria-label="google"><i class="fa fa-pinterest-p"></i></a></li>
+										</ul>
+									</div>
+									<div class="top_bar_contact_item ttm-highlight-right">
+										<div class="top_bar_icon"><i class="flaticon-phone-call"></i></div>
+										<div class="top_bar_content"> Talk To Expert:
+											<strong><a href="tel:143456789">0 (143) 456 7899</a></strong></div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
 				</div>
-			</nav>
+			</div>
 		</div>
+		<!-- topbar end -->
+		<!-- site-header-menu -->
+		<div id="site-header-menu" class="site-header-menu ttm-bgcolor-white">
+			<div class="site-header-menu-inner ttm-stickable-header">
+				<div class="container">
+					<div class="row">
+						<div class="col-lg-12 ">
+							<!--site-navigation -->
+							<div class="site-navigation d-flex flex-row  justify-content-between align-items-center">
+								<!-- site-branding -->
+								<div class="site-branding">
+									<?php the_custom_logo();?>
+								</div><!-- .site-branding end -->
+								
+								<div class="btn-show-menu-mobile menubar menubar--squeeze">
+									<span class="menubar-box">
+										<span class="menubar-inner menu-toggle" aria-controls="primary-menu" aria-expanded="false"></span>
+									</span>
+								</div>
+									<?php
+									wp_nav_menu(
+										array(
+											'theme_location' => 'menu-1',
+											'container'            => 'nav',
+											'container_class'      => 'main-menu menu-mobile',
+											'container_id'      => 'menu',
+											'menu_id'        => 'menu',
+											'menu_class'     => "menu justify-content-end align-items-center", // (string) CSS class to use for the ul element which forms the menu. Default 'menu'.
+											// 'items_wrap'  => '<ul id="%1$s" class="%2$s" aria-label="submenu">%3$s</ul>',
+									        'depth'          => "2", // (int) How many levels of the hierarchy are to be included. 0 means all. Default 0.
+									        'after'		     => $icon, // (string) Text after the link markup.
+										    'item_spacing'   => "discard", // (string) Whether to preserve whitespace within the menu's HTML. Accepts 'preserve' or 'discard'. Default 'preserve'.
+										)
+									);
+									?><!-- #site-navigation -->
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</header><!-- #masthead -->
 
 
