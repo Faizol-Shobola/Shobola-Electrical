@@ -135,9 +135,6 @@ get_header();
                                                         <span class="ttm-fid-title">Years Of Experiance</span>
                                                     </h4>
                                                 </div>
-                                                <!-- <div class="ttm-fid-title">
-                                                    <h5></h5>
-                                                </div> -->
                                             </div>
                                         </div>
                                     </div>
@@ -750,72 +747,92 @@ get_header();
             <!-- progress-bar-section-->
             <section class="ttm-row progressbar-section ttm-bg bg-layer-equal-height ttm-bgcolor-grey clearfix">
                 <div class="container">
-                    <div class="row">
-                        <div class="col-lg-12">
-                            <div class="row g-0">
-                                <div class="col-lg-6">
-                                    <div class="ttm-col-bgimage-yes ttm-bg col-bg-img-four ttm-left-span">
-                                        <div class="ttm-col-wrapper-bg-layer ttm-bg-layer"></div>
-                                        <div class="layer-content"> </div>
-                                    </div>
-                                    <!--col-image-four -->
-                                    <img class="img-fluid ttm-equal-height-image" src="https://themetechmount.com/html/buildtab/images/bg-image/col-bgimage-2.jpg" alt="bg-image">
-                                    <!--col-image-four -->
+                    <div class="row g-0 padding_top50 ttm-bgcolor-grey">
+                        <div class="col-lg-6">
+                            <div class="ttm-bg ttm-col-bgcolor-yes ttm-bgcolor-grey ttm-bg ttm-left-span padding_top70 padding_right70 padding_bottom30 padding_left15 res-991-padding_lr15 res-1199-padding_left30 ">
+                                <div class="ttm-col-wrapper-bg-layer ttm-bg-layer">
+                                    <div class="ttm-col-wrapper-bg-layer-inner"></div>
                                 </div>
-                                <div class="col-lg-6">
-                                    <div class="ttm-bg ttm-col-bgcolor-yes ttm-bgcolor-white ttm-bg ttm-right-span spacing-2 z-index-2">
-                                        <div class="ttm-col-wrapper-bg-layer ttm-bg-layer">
-                                            <div class="ttm-col-wrapper-bg-layer-inner"></div>
+                                <div class="layer-content">
+                                    <!--section-title -->
+                                    <div class="section-title ">
+                                        <div class="title-header">
+                                            <h3>WHY CHOOSE US</h3>
+                                            <h2 class="title">Can Go To
+                                                <span>Extra Miles</span> <br> To Get Job Done! </h2>
                                         </div>
-                                        <div class="layer-content">
-                                            <!-- section title -->
-                                            <!-- section title -->
-                                            <div class="section-title ">
-                                                <div class="title-header">
-                                                    <h3>HIGH PERFORMANCE</h3>
-                                                    <h2 class="title"> We're Turning Vision Into Superior <span>Value</span></h2>
-                                                </div>
-                                                <div class="title-desc">
-                                                    <p>knowing how to work and communicate with customers and key stakeholders is an art and BuildTab is the best at it. Our group of people are the experts and very optimistic to turn our clients vision into reality.</p>
-                                                </div>
-                                                <div class="title-desc">
-                                                    <p>We try to match ISO standards which helps us to construct the great buildings & run a cost-effective business, deliver on their promises.</p>
-                                                </div>
-                                            </div><!-- section title end -->
-                                            <!-- progress-bar -->
-                                            <div class="ttm-progress-bar" data-percent="82%">
-                                                <div class="progress-bar-title">Construction</div><!-- progress-bar-title -->
-                                                <div class="progress-bar-inner">
-                                                    <div class="progress-bar progress-bar-color-bar_darkgrey"></div>
-                                                </div>
-                                                <div class="progress-bar-percent ttm-textcolor-dark-grey" data-percent="82">82%</div>
-                                                <!-- progress-bar-percent -->
-                                            </div>
-                                            <!-- progress-bar END -->
-                                            <!-- progress-bar -->
-                                            <div class="ttm-progress-bar" data-percent="95%">
-                                                <div class="progress-bar-title">Remodeling</div><!-- progress-bar-title -->
-                                                <div class="progress-bar-inner">
-                                                    <div class="progress-bar progress-bar-color-bar_darkgrey"></div>
-                                                </div>
-                                                <div class="progress-bar-percent ttm-textcolor-dark-grey" data-percent="95">95%</div>
-                                                <!-- progress-bar-percent -->
-                                            </div>
-                                            <!-- progress-bar END -->
-                                            <!-- progress-bar -->
-                                            <div class="ttm-progress-bar" data-percent="86%">
-                                                <div class="progress-bar-title">Designing</div><!-- progress-bar-title -->
-                                                <div class="progress-bar-inner">
-                                                    <div class="progress-bar progress-bar-color-bar_darkgrey"></div>
-                                                </div>
-                                                <div class="progress-bar-percent ttm-textcolor-dark-grey" data-percent="86">86%</div>
-                                                <!-- progress-bar-percent -->
-                                            </div>
-                                            <!-- progress-bar END -->
+                                        <div class="title-desc">
+                                            <p> Each of our services are delivered collaboratively with the goal to maximize value, minimize waste and make sure everyone home.
+                                            </p>
                                         </div>
+                                    </div>
+                                    <!--section-title-end -->
+                                    <!--featured-icon-box-->
+                                    <div class="featuredbox-number">
+                                        <!--featured-icon-box-->
+                                        <div class="featured-icon-box icon-align-before-content style4">
+                                            <div class="featured-icon">
+                                                <div class="ttm-icon ttm-icon_element-fill ttm-icon_element-color-grey ttm-icon_element-size-md ttm-icon_element-style-square">
+                                                    <i class="ttm-num ti-info"></i>
+                                                </div>
+                                            </div>
+                                            <div class="featured-content">
+                                                <div class="featured-title">
+                                                    <h3>Project Conception</h3>
+                                                </div>
+                                                <div class="featured-desc">
+                                                    <p>A Conception is the stage where ideas are at their most fluid creates construction process.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!--featured-icon-box end-->
+                                        <!--featured-icon-box-->
+                                        <div class="featured-icon-box icon-align-before-content style4">
+                                            <div class="featured-icon">
+                                                <div class="ttm-icon ttm-icon_element-fill ttm-icon_element-color-grey ttm-icon_element-size-md ttm-icon_element-style-square">
+                                                    <i class="ttm-num ti-info"></i>
+                                                </div>
+                                            </div>
+                                            <div class="featured-content">
+                                                <div class="featured-title">
+                                                    <h3>The Design Process</h3>
+                                                </div>
+                                                <div class="featured-desc">
+                                                    <p>Once you have finally completed bending the rules of a reality to bring your client’s dream.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!--featured-icon-box end-->
+                                        <!--featured-icon-box-->
+                                        <div class="featured-icon-box icon-align-before-content style4">
+                                            <div class="featured-icon">
+                                                <div class="ttm-icon ttm-icon_element-fill ttm-icon_element-color-grey ttm-icon_element-size-md ttm-icon_element-style-square">
+                                                    <i class="ttm-num ti-info"></i>
+                                                </div>
+                                            </div>
+                                            <div class="featured-content">
+                                                <div class="featured-title">
+                                                    <h3>A Plan Procurement</h3>
+                                                </div>
+                                                <div class="featured-desc">
+                                                    <p> Next is procurement which is the most straight forward step in the construction processes.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!--featured-icon-box end-->
                                     </div>
                                 </div>
                             </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <!-- ttm-col-bg-six-->
+                            <div class="ttm-bg ttm-col-bgimage-yes col-bg-img-six z-index-2">
+                                <div class="ttm-col-wrapper-bg-layer ttm-bg-layer"></div>
+                                <div class="layer-content">
+                                </div>
+                            </div>
+                            <!-- ttm-col-bg-six-end-->
+                            <img class="img-fluid ttm-equal-height-image w-100" src="images/bg-image/col-bgimage-6.jpg" alt="bg-image">
                         </div>
                     </div>
                     <div class="margin_top90 padding_bottom30 res-991-margin_top50">
