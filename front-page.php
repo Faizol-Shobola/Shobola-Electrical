@@ -131,7 +131,7 @@ get_header();
                                             <div class="d-flex ttm-fid inside style5 align-items-center justify-content-center">
                                                 <div class="ttm-fid-contents">
                                                     <h4 class="ttm-fid-inner d-flex align-items-center">
-                                                        <span data-appear-animation="animateDigits" data-from="0" data-to="25" data-interval="5" data-before="" data-before-style="sup" data-after="+" data-after-style="sub" class="numinate">25</span>+
+                                                        <span data-appear-animation="animateDigits" data-from="0" data-to="25" data-interval="3" data-before="" data-before-style="sup" data-after="+" data-after-style="sub" class="numinate">25</span>+
                                                         <span class="ttm-fid-title">Years Of Experiance</span>
                                                     </h4>
                                                 </div>
