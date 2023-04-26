@@ -1736,9 +1736,9 @@ label {
 }
 
 .ttm_single_image_text p:before {
-  webkit-mask: url(../images/quote-img1.svg);
-  mask: url(../images/quote-img1.svg);
-  -webkit-mask-box-image: url(../images/quote-img1.svg);
+  webkit-mask: url(https://themetechmount.com/html/buildtab/images/quote-img1.svg);
+  mask: url(https://themetechmount.com/html/buildtab/images/quote-img1.svg);
+  -webkit-mask-box-image: url(https://themetechmount.com/html/buildtab/images/quote-img1.svg);
   -webkit-mask-size: cover;
   mask-size: cover;
   position: absolute;
@@ -1790,9 +1790,9 @@ label {
 }
 
 .ttm_single_image_text.style1 p:before {
-  webkit-mask: url(../images/quote-img1.svg);
-  mask: url(../images/quote-img1.svg);
-  -webkit-mask-box-image: url(../images/quote-img1.svg);
+  webkit-mask: url(https://themetechmount.com/html/buildtab/images/quote-img1.svg);
+  mask: url(https://themetechmount.com/html/buildtab/images/quote-img1.svg);
+  -webkit-mask-box-image: url(https://themetechmount.com/html/buildtab/images/quote-img1.svg);
   -webkit-mask-size: cover;
   mask-size: cover;
   position: absolute;
@@ -1983,7 +1983,7 @@ a.ttm-btn.ttm-btn-style-fill.ttm-btn-color-white:hover, .ttm-btn.ttm-btn-style-f
   left: 0;
   display: block;
   background: #fff;
-  background-image: url(../images/loader.gif);
+  background-image: url(https://themetechmount.com/html/buildtab/images/loader.gif);
   background-repeat: no-repeat;
   background-position: center;
 }
@@ -2885,7 +2885,7 @@ nav.main-menu ul {
 
 /* second-footer */
 .bg-footer {
-  background-image: url(../images/bg-image/footer-bg.png);
+  background-image: url(https://themetechmount.com/html/buildtab/images/bg-image/footer-bg.png);
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -3203,7 +3203,7 @@ Page-Title-Row
 
 
 .ttm-page-title-row {
-  background: url(../images/pagetitle-row.jpg);
+  background: url(https://themetechmount.com/html/buildtab/images/pagetitle-row.jpg);
   background-color: rgba(0, 0, 0, 0.36);
   background-position: center center;
   background-size: cover;
@@ -3875,7 +3875,7 @@ article.ttm-blog-single .ttm-blog-single-content {
 /*  Error_page
 /*------------------------------------------------------------------------------*/
 .error-404 {
-  background-image: url(../images/404-page-bg.png);
+  background-image: url(https://themetechmount.com/html/buildtab/images/404-page-bg.png);
   background-color: #111111;
   background-position: right bottom;
   background-size: auto;

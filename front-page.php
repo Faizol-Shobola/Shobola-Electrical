@@ -15,21 +15,21 @@ get_header();
         <rs-module-wrap id="rev_slider_3_1_wrapper" data-alias="main-classic-03" data-source="gallery" style="visibility:hidden;background:transparent;padding:0;margin:0px auto;margin-top:0;margin-bottom:0;">
             <rs-module id="rev_slider_3_1" style="" data-version="6.5.7">
                 <rs-slides>
-                    <rs-slide style="position: absolute;" data-key="rs-6" data-title="Slide" data-thumb="revolution/revolution/assets/mainslider-bg5-50x100.jpg" data-in="o:0;" data-out="a:false;">
-                        <img src="revolution/assets/mainslider-bg5.jpg" title="mainslider-bg5" width="1920" height="840" class="rev-slidebg tp-rs-img" data-no-retina>
+                    <rs-slide style="position: absolute;" data-key="rs-6" data-title="Slide" data-thumb="https://themetechmount.com/html/buildtab/revolution/assets/mainslider-bg1.jpg" data-in="o:0;" data-out="a:false;">
+                        <img src="https://themetechmount.com/html/buildtab/revolution/assets/mainslider-bg1.jpg" title="mainslider-bg5" width="1920" height="840" class="rev-slidebg tp-rs-img" data-no-retina>
                         <!--
                             -->
-                        <rs-layer id="slider-3-slide-6-layer-0" data-type="text" data-color="#8592a6" data-rsp_ch="on" data-xy="x:l,l,c,c;xo:79px,79px,0,520px;y:m;yo:-105px,-105px,-134px,-34px;" data-text="w:normal;s:16,16,16,15;l:25,25,20,12;ls:1px,1px,0px,0px;fw:600;" data-vbility="t,t,t,f" data-frame_0="x:-50,-50,-31,-19;" data-frame_1="st:100;sp:500;sR:100;" data-frame_999="o:0;st:w;sR:8400;" style="z-index:8;font-family:'Poppins';text-transform:uppercase;">Best Construction Solution
+                        <rs-layer id="slider-3-slide-6-layer-0" data-type="text" data-color="#FFFFFF" data-rsp_ch="on" data-xy="x:l,l,c,c;xo:79px,79px,0,520px;y:m;yo:-105px,-105px,-134px,-34px;" data-text="w:normal;s:16,16,16,15;l:25,25,20,12;ls:1px,1px,0px,0px;fw:600;" data-vbility="t,t,t,f" data-frame_0="x:-50,-50,-31,-19;" data-frame_1="st:100;sp:500;sR:100;" data-frame_999="o:0;st:w;sR:8400;" style="z-index:8;font-family:'Poppins';text-transform:uppercase;">Best Construction Solution
                         </rs-layer>
                         <!--
 
                             -->
-                        <rs-layer id="slider-3-slide-6-layer-1" data-type="text" data-color="#111111" data-rsp_ch="on" data-xy="x:l,l,c,c;xo:79px,79px,0,0;y:m;yo:-42px,-42px,-77px,-89px;" data-text="w:normal;s:65,65,55,40;l:90,90,56,50;fw:800;" data-frame_0="x:-50,-50,-31,-19;" data-frame_1="st:180;sp:800;sR:180;" data-frame_999="o:0;st:w;sR:8020;" style="z-index:9;font-family:'inter';">Provide <span class="ttm-textcolor-skincolor">Superior</span> And
+                        <rs-layer id="slider-3-slide-6-layer-1" data-type="text" data-color="#FFFFFF" data-rsp_ch="on" data-xy="x:l,l,c,c;xo:79px,79px,0,0;y:m;yo:-42px,-42px,-77px,-89px;" data-text="w:normal;s:65,65,55,40;l:90,90,56,50;fw:800;" data-frame_0="x:-50,-50,-31,-19;" data-frame_1="st:180;sp:800;sR:180;" data-frame_999="o:0;st:w;sR:8020;" style="z-index:9;font-family:'inter';">Provide <span class="ttm-textcolor-skincolor">Superior</span> And
                         </rs-layer>
                         <!--
 
                             -->
-                        <rs-layer id="slider-3-slide-6-layer-2" data-type="text" data-color="#111111" data-rsp_ch="on" data-xy="x:l,l,c,c;xo:79px,79px,0,0;y:m;yo:42px,42px,-11px,-32px;" data-text="w:normal;s:65,65,55,40;l:90,90,56,50;fw:800;" data-frame_0="x:-50,-50,-31,-19;" data-frame_1="st:260;sp:800;sR:260;" data-frame_999="o:0;st:w;sR:7940;" style="z-index:10;font-family:'inter';">Best Quality Results
+                        <rs-layer id="slider-3-slide-6-layer-2" data-type="text" data-color="#FFFFFF" data-rsp_ch="on" data-xy="x:l,l,c,c;xo:79px,79px,0,0;y:m;yo:42px,42px,-11px,-32px;" data-text="w:normal;s:65,65,55,40;l:90,90,56,50;fw:800;" data-frame_0="x:-50,-50,-31,-19;" data-frame_1="st:260;sp:800;sR:260;" data-frame_999="o:0;st:w;sR:7940;" style="z-index:10;font-family:'inter';">Best Quality Results
                         </rs-layer>
                         <!--
 
@@ -43,11 +43,11 @@ get_header();
                         </rs-layer>
                         <!--
 
-                            --><a id="slider-3-slide-6-layer-5" class="rs-layer ttm-btn" href="project-style-01.html" target="_self" rel="nofollow" data-type="text" data-color="#111111" data-rsp_ch="on" data-xy="x:l,l,c,c;xo:84px,84px,0,0;y:m;yo:144px,144px,68px,31px;" data-text="w:normal;s:14,14,14,13;l:20,20,14,13;fw:700;" data-padding="t:13,13,12,12;r:27,27,30,25;b:13,13,12,12;l:30,30,30,25;" data-border="bos:solid;boc:#111111;bow:2px,2px,2px,2px;" data-frame_0="y:100%;" data-frame_1="e:power4.inOut;st:260;sp:500;sR:260;" data-frame_999="o:0;st:w;sR:8240;" data-frame_hover="c:#fff;bgc:#e51f22;boc:#e51f22;bos:solid;bow:2px,2px,2px,2px;" style="z-index:12;font-family:'inter';">All Projects <i class="fas fa-long-arrow-alt-right"></i>
+                            --><a id="slider-3-slide-6-layer-5" class="rs-layer ttm-btn" href="project-style-01.html" target="_self" rel="nofollow" data-type="text" data-color="#FFFFFF" data-rsp_ch="on" data-xy="x:l,l,c,c;xo:84px,84px,0,0;y:m;yo:144px,144px,68px,31px;" data-text="w:normal;s:14,14,14,13;l:20,20,14,13;fw:700;" data-padding="t:13,13,12,12;r:27,27,30,25;b:13,13,12,12;l:30,30,30,25;" data-border="bos:solid;boc:#FFFFFF;bow:2px,2px,2px,2px;" data-frame_0="y:100%;" data-frame_1="e:power4.inOut;st:260;sp:500;sR:260;" data-frame_999="o:0;st:w;sR:8240;" data-frame_hover="c:#fff;bgc:#e51f22;boc:#e51f22;bos:solid;bow:2px,2px,2px,2px;" style="z-index:12;font-family:'inter';">All Projects 
                         </a>
                         <!--
 
-                            --><a id="slider-3-slide-6-layer-13" class="rs-layer ttm-btn" href="services-1.html" target="_self" rel="nofollow" data-type="text" data-color="#fff" data-rsp_ch="on" data-xy="x:l,l,c,c;xo:270px,270px,0,0;y:m;yo:144px,144px,124px,85px;" data-text="w:normal;s:14,14,14,13;l:20,20,14,13;fw:700;" data-padding="t:13,13,12,12;r:25,25,30,25;b:13,13,12,12;l:30,30,30,25;" data-border="bos:solid;boc:#e51f22;bow:2px,2px,2px,2px;" data-frame_0="y:100%;" data-frame_1="e:power4.inOut;st:260;sp:500;sR:260;" data-frame_999="o:0;st:w;sR:8240;" data-frame_hover="c:#fff;bgc:#111111;boc:#111111;bos:solid;bow:2px,2px,2px,2px;" style="z-index:11;background-color:#e51f22;font-family:'inter';">Our Services <i class="fas fa-long-arrow-alt-right"></i>
+                            --><a id="slider-3-slide-6-layer-13" class="rs-layer ttm-btn" href="services-1.html" target="_self" rel="nofollow" data-type="text" data-color="#fff" data-rsp_ch="on" data-xy="x:l,l,c,c;xo:270px,270px,0,0;y:m;yo:144px,144px,124px,85px;" data-text="w:normal;s:14,14,14,13;l:20,20,14,13;fw:700;" data-padding="t:13,13,12,12;r:25,25,30,25;b:13,13,12,12;l:30,30,30,25;" data-border="bos:solid;boc:#e51f22;bow:2px,2px,2px,2px;" data-frame_0="y:100%;" data-frame_1="e:power4.inOut;st:260;sp:500;sR:260;" data-frame_999="o:0;st:w;sR:8240;" data-frame_hover="c:#fff;bgc:#111111;boc:#111111;bos:solid;bow:2px,2px,2px,2px;" style="z-index:11;background-color:#e51f22;font-family:'inter';">Our Services 
                         </a>
                         <!--
 
@@ -57,21 +57,21 @@ get_header();
                         <!--
                         -->
                     </rs-slide>
-                    <rs-slide style="position: absolute;" data-key="rs-8" data-title="Slide" data-thumb="revolution/assets/mainslider-bg6-50x100.jpg" data-in="o:0;" data-out="a:false;">
-                        <img src="revolution/assets/mainslider-bg6.jpg" title="mainslider-bg6" width="1920" height="840" class="rev-slidebg tp-rs-img" data-no-retina>
+                    <rs-slide style="position: absolute;" data-key="rs-8" data-title="Slide" data-thumb="https://themetechmount.com/html/buildtab/revolution/assets/mainslider-bg2.jpg" data-in="o:0;" data-out="a:false;">
+                        <img src="https://themetechmount.com/html/buildtab/revolution/assets/mainslider-bg2.jpg" title="mainslider-bg6" width="1920" height="840" class="rev-slidebg tp-rs-img" data-no-retina>
                         <!--
                             -->
-                        <rs-layer id="slider-3-slide-8-layer-0" data-type="text" data-color="#8592a6" data-rsp_ch="on" data-xy="x:r,r,c,c;xo:74px,74px,0,520px;y:m;yo:-100px,-100px,-128px,-34px;" data-text="w:normal;s:16,16,16,15;l:25,25,20,12;ls:1px,1px,0px,0px;fw:600;" data-vbility="t,t,t,f" data-frame_0="x:-50,-50,-31,-19;" data-frame_1="st:100;sp:500;sR:100;" data-frame_999="o:0;st:w;sR:8400;" style="z-index:8;font-family:'Poppins';text-transform:uppercase;">The intelligent way to plan.
+                        <rs-layer id="slider-3-slide-8-layer-0" data-type="text" data-color="#FFFFFF" data-rsp_ch="on" data-xy="x:r,r,c,c;xo:74px,74px,0,520px;y:m;yo:-100px,-100px,-128px,-34px;" data-text="w:normal;s:16,16,16,15;l:25,25,20,12;ls:1px,1px,0px,0px;fw:600;" data-vbility="t,t,t,f" data-frame_0="x:-50,-50,-31,-19;" data-frame_1="st:100;sp:500;sR:100;" data-frame_999="o:0;st:w;sR:8400;" style="z-index:8;font-family:'Poppins';text-transform:uppercase;">The intelligent way to plan.
                         </rs-layer>
                         <!--
 
                             -->
-                        <rs-layer id="slider-3-slide-8-layer-1" data-type="text" data-color="#111111" data-rsp_ch="on" data-xy="x:r,r,c,c;xo:74px,74px,0,0;y:m;yo:-40px,-40px,-77px,-89px;" data-text="w:normal;s:65,65,55,40;l:90,90,56,50;fw:800;" data-frame_0="x:-50,-50,-31,-19;" data-frame_1="st:180;sp:800;sR:180;" data-frame_999="o:0;st:w;sR:8020;" style="z-index:9;font-family:'inter';">Our <span class="ttm-textcolor-skincolor">Reputation</span> Is
+                        <rs-layer id="slider-3-slide-8-layer-1" data-type="text" data-color="#FFFFFF" data-rsp_ch="on" data-xy="x:r,r,c,c;xo:74px,74px,0,0;y:m;yo:-40px,-40px,-77px,-89px;" data-text="w:normal;s:65,65,55,40;l:90,90,56,50;fw:800;" data-frame_0="x:-50,-50,-31,-19;" data-frame_1="st:180;sp:800;sR:180;" data-frame_999="o:0;st:w;sR:8020;" style="z-index:9;font-family:'inter';">Our <span class="ttm-textcolor-skincolor">Reputation</span> Is
                         </rs-layer>
                         <!--
 
                             -->
-                        <rs-layer id="slider-3-slide-8-layer-2" data-type="text" data-color="#111111" data-rsp_ch="on" data-xy="x:r,r,c,c;xo:74px,74px,0,0;y:m;yo:45px,45px,-11px,-32px;" data-text="w:normal;s:65,65,55,40;l:90,90,56,50;fw:800;" data-frame_0="x:-50,-50,-31,-19;" data-frame_1="st:260;sp:800;sR:260;" data-frame_999="o:0;st:w;sR:7940;" style="z-index:10;font-family:'inter';">Built On Solid Ground
+                        <rs-layer id="slider-3-slide-8-layer-2" data-type="text" data-color="#FFFFFF" data-rsp_ch="on" data-xy="x:r,r,c,c;xo:74px,74px,0,0;y:m;yo:45px,45px,-11px,-32px;" data-text="w:normal;s:65,65,55,40;l:90,90,56,50;fw:800;" data-frame_0="x:-50,-50,-31,-19;" data-frame_1="st:260;sp:800;sR:260;" data-frame_999="o:0;st:w;sR:7940;" style="z-index:10;font-family:'inter';">Built On Solid Ground
                         </rs-layer>
                         <!--
 
@@ -85,15 +85,15 @@ get_header();
                         </rs-layer>
                         <!--
 
-                            --><a id="slider-3-slide-8-layer-5" class="rs-layer ttm-btn" href="services-1.html" target="_self" rel="nofollow" data-type="text" data-color="#111111" data-rsp_ch="on" data-xy="x:r,r,c,c;xo:260px,260px,0,0;y:m;yo:144px,144px,62px,31px;" data-text="w:normal;s:14,14,14,13;l:20,20,14,13;fw:700;" data-padding="t:13,13,12,12;r:27,27,30,25;b:13,13,12,12;l:30,30,30,25;" data-border="bos:solid;boc:#111111;bow:2px,2px,2px,2px;" data-frame_0="y:100%;" data-frame_1="e:power4.inOut;st:260;sp:500;sR:260;" data-frame_999="o:0;st:w;sR:8240;" data-frame_hover="c:#fff;bgc:#e51f22;boc:#e51f22;bos:solid;bow:2px,2px,2px,2px;" style="z-index:12;font-family:'inter';">More Services <i class="fas fa-long-arrow-alt-right"></i>
+                            --><a id="slider-3-slide-8-layer-5" class="rs-layer ttm-btn" href="services-1.html" target="_self" rel="nofollow" data-type="text" data-color="#FFFFFF" data-rsp_ch="on" data-xy="x:r,r,c,c;xo:260px,260px,0,0;y:m;yo:144px,144px,62px,31px;" data-text="w:normal;s:14,14,14,13;l:20,20,14,13;fw:700;" data-padding="t:13,13,12,12;r:27,27,30,25;b:13,13,12,12;l:30,30,30,25;" data-border="bos:solid;boc:#FFFFFF;bow:2px,2px,2px,2px;" data-frame_0="y:100%;" data-frame_1="e:power4.inOut;st:260;sp:500;sR:260;" data-frame_999="o:0;st:w;sR:8240;" data-frame_hover="c:#fff;bgc:#e51f22;boc:#e51f22;bos:solid;bow:2px,2px,2px,2px;" style="z-index:12;font-family:'inter';">More Services 
                         </a>
                         <!--
 
-                            --><a id="slider-3-slide-8-layer-13" class="rs-layer ttm-btn" href="contact-us.html" target="_self" rel="nofollow" data-type="text" data-color="#fff" data-rsp_ch="on" data-xy="x:r,r,c,c;xo:74px,74px,0,0;y:m;yo:144px,144px,120px,85px;" data-text="w:normal;s:14,14,14,13;l:20,20,14,13;fw:700;" data-padding="t:13,13,12,12;r:25,25,30,25;b:13,13,12,12;l:30,30,30,25;" data-border="bos:solid;boc:#e51f22;bow:2px,2px,2px,2px;" data-frame_0="y:100%;" data-frame_1="e:power4.inOut;st:260;sp:500;sR:260;" data-frame_999="o:0;st:w;sR:8240;" data-frame_hover="c:#fff;bgc:#111111;boc:#111111;bos:solid;bow:2px,2px,2px,2px;" style="z-index:11;background-color:#e51f22;font-family:'inter';">Contact Us <i class="fas fa-long-arrow-alt-right"></i>
+                            --><a id="slider-3-slide-8-layer-13" class="rs-layer ttm-btn" href="contact-us.html" target="_self" rel="nofollow" data-type="text" data-color="#fff" data-rsp_ch="on" data-xy="x:r,r,c,c;xo:74px,74px,0,0;y:m;yo:144px,144px,120px,85px;" data-text="w:normal;s:14,14,14,13;l:20,20,14,13;fw:700;" data-padding="t:13,13,12,12;r:25,25,30,25;b:13,13,12,12;l:30,30,30,25;" data-border="bos:solid;boc:#e51f22;bow:2px,2px,2px,2px;" data-frame_0="y:100%;" data-frame_1="e:power4.inOut;st:260;sp:500;sR:260;" data-frame_999="o:0;st:w;sR:8240;" data-frame_hover="c:#fff;bgc:#111111;boc:#111111;bos:solid;bow:2px,2px,2px,2px;" style="z-index:11;background-color:#e51f22;font-family:'inter';">Contact Us 
                         </a>
                         <!--
 
-                            --><a id="slider-3-slide-8-layer-18" class="rs-layer ttm_prettyphoto" href="https://www.youtube.com/watch?v=7e90gBu4pas" target="_self" rel="nofollow" data-type="text" data-color="#fff" data-rsp_ch="on" data-xy="x:c;xo:350px,350px,520px,320px;y:m;yo:-165px,-165px,25px,15px;" data-text="w:normal;s:25,25,15,9;l:55,55,34,20;a:center;" data-dim="w:55px,55px,34px,20px;h:55px,55px,34px,20px;" data-vbility="t,t,f,f" data-frame_0="rY:360deg;" data-frame_1="e:back.out;st:230;sp:500;sR:230;" data-frame_999="o:0;st:w;sR:8270;" data-frame_hover="c:#fff;bgc:#e51f22;" style="z-index:16;background-color:#111111;font-family:'Roboto';"><i class="fa fa-play"></i>
+                            --><a id="slider-3-slide-8-layer-18" class="rs-layer ttm_prettyphoto" href="https://www.youtube.com/watch?v=7e90gBu4pas" target="_self" rel="nofollow" data-type="text" data-color="#fff" data-rsp_ch="on" data-xy="x:c;xo:350px,350px,520px,320px;y:m;yo:-165px,-165px,25px,15px;" data-text="w:normal;s:25,25,15,9;l:55,55,34,20;a:center;" data-dim="w:55px,55px,34px,20px;h:55px,55px,34px,20px;" data-vbility="t,t,f,f" data-frame_0="rY:360deg;" data-frame_1="e:back.out;st:230;sp:500;sR:230;" data-frame_999="o:0;st:w;sR:8270;" data-frame_hover="c:#fff;bgc:#e51f22;" style="z-index:16;background-color:#111111;font-family:'Roboto';"><i class="fas fa-play"></i>
                         </a>
                         <!--
                         -->
@@ -155,7 +155,7 @@ get_header();
                                                     <div class="featured-desc">
                                                         <p>We've team of skilled people with different maintenance experts specialties</p>
                                                     </div>
-                                                    <a class="ttm-btn btn-inline ttm-btn-size-md ttm-icon-btn-right ttm-textcolor-darkgreycolor" href="general-builder.html">Read More<i class="fas fa-long-arrow-alt-right"></i></a>
+                                                    <a class="ttm-btn btn-inline ttm-btn-size-md ttm-icon-btn-right ttm-textcolor-darkgreycolor" href="general-builder.html">Read More</a>
                                                 </div>
                                             </div>
                                         </div>
@@ -173,7 +173,7 @@ get_header();
                                                     <div class="featured-desc">
                                                         <p>The variety of tasks that help create safe and comfortable living environment</p>
                                                     </div>
-                                                    <a class="ttm-btn btn-inline ttm-btn-size-md ttm-icon-btn-right ttm-textcolor-darkgreycolor" href="house-extensions.html">Read More<i class="fas fa-long-arrow-alt-right"></i></a>
+                                                    <a class="ttm-btn btn-inline ttm-btn-size-md ttm-icon-btn-right ttm-textcolor-darkgreycolor" href="house-extensions.html">Read More</a>
                                                 </div>
                                             </div>
                                         </div>
@@ -219,15 +219,15 @@ get_header();
                                 </div>
                             </div>
                             <div class="margin_top20">
-                                <a class="ttm-btn ttm-btn-size-md ttm-btn-shape-square ttm-btn-style-border ttm-btn-color-dark margin_right20 margin_top15" href="about-us.html">Learn More <i class="fas fa-long-arrow-alt-right"></i></a>
+                                <a class="ttm-btn ttm-btn-size-md ttm-btn-shape-square ttm-btn-style-border ttm-btn-color-dark margin_right20 margin_top15" href="about-us.html">Learn More </a>
                                 <a class="ttm-btn ttm-btn-size-md ttm-btn-shape-square ttm-btn-style-fill ttm-btn-color-skincolor  margin_top15" href="services-1.html">Services
-                                    <i class="fas fa-long-arrow-alt-right"></i></a>
+                                    </a>
                             </div>
                             </div>
                         </div>
                         <div class="col-lg-6">
                             <div class="ttm_single_image-wrapper text-center imagestyle-one res-1199-padding_top70 mt-50 ">
-                                <img class="img-fluid auto_size" src="images/single-img2.jpg" alt="single-02" height="412" width="512">
+                                <img class="img-fluid auto_size" src="https://themetechmount.com/html/buildtab/images/single-img2.jpg" alt="single-02" height="412" width="512">
                                 <div class="ttm_single_image_text">
                                     <p>The only direction not represented in <br> their construction was it is vertical</p>
                                 </div>
@@ -270,7 +270,7 @@ get_header();
                                             <div class="featured-desc">
                                                 <p>Uncompromised level of quality throughout the work</p>
                                             </div>
-                                            <a class="ttm-btn btn-inline ttm-btn-size-md ttm-icon-btn-right ttm-btn-color-skincolor" href="general-builder.html">Learn More<i class="fas fa-long-arrow-alt-right"></i></a>
+                                            <a class="ttm-btn btn-inline ttm-btn-size-md ttm-icon-btn-right ttm-btn-color-skincolor" href="general-builder.html">Learn More</a>
                                         </div>
                                     </div>
                                 </div>
@@ -288,7 +288,7 @@ get_header();
                                             <div class="featured-desc">
                                                 <p>Tailored as per the requirements of an individual one</p>
                                             </div>
-                                            <a class="ttm-btn btn-inline ttm-btn-size-md ttm-icon-btn-right ttm-btn-color-skincolor" href="house-extensions.html">Learn More<i class="fas fa-long-arrow-alt-right"></i></a>
+                                            <a class="ttm-btn btn-inline ttm-btn-size-md ttm-icon-btn-right ttm-btn-color-skincolor" href="house-extensions.html">Learn More</a>
                                         </div>
                                     </div>
                                 </div>
@@ -306,7 +306,7 @@ get_header();
                                             <div class="featured-desc">
                                                 <p>Desire to carry activities without depleting resources</p>
                                             </div>
-                                            <a class="ttm-btn btn-inline ttm-btn-size-md ttm-icon-btn-right ttm-btn-color-skincolor" href="electrical-services.html">Learn More<i class="fas fa-long-arrow-alt-right"></i></a>
+                                            <a class="ttm-btn btn-inline ttm-btn-size-md ttm-icon-btn-right ttm-btn-color-skincolor" href="electrical-services.html">Learn More</a>
                                         </div>
                                     </div>
                                 </div>
@@ -324,7 +324,7 @@ get_header();
                                             <div class="featured-desc">
                                                 <p>Decide how long will take you to perform small design task.</p>
                                             </div>
-                                            <a class="ttm-btn btn-inline ttm-btn-size-md ttm-icon-btn-right ttm-btn-color-skincolor" href="civil-structure.html">Learn More<i class="fas fa-long-arrow-alt-right"></i></a>
+                                            <a class="ttm-btn btn-inline ttm-btn-size-md ttm-icon-btn-right ttm-btn-color-skincolor" href="civil-structure.html">Learn More</a>
                                         </div>
                                     </div>
                                 </div>
@@ -345,7 +345,7 @@ get_header();
                                                 <div class="featured-desc">
                                                     <p>Expertise of all our qualified builders and hardworking employees to offer excellence in terms of provided the following services.</p>
                                                 </div>
-                                                <a class="ttm-btn btn-inline ttm-btn-size-md ttm-icon-btn-right ttm-btn-color-skincolor" href="about-us-2.html">Learn More<i class="fas fa-long-arrow-alt-right"></i></a>
+                                                <a class="ttm-btn btn-inline ttm-btn-size-md ttm-icon-btn-right ttm-btn-color-skincolor" href="about-us-2.html">Learn More</a>
                                             </div>
                                         </div>
                                     </div>
@@ -366,7 +366,7 @@ get_header();
                                                     <div class="featured-desc">
                                                         <p>Uncompromised level of quality throughout the work</p>
                                                     </div>
-                                                    <a class="ttm-btn btn-inline ttm-btn-size-md ttm-icon-btn-right ttm-btn-color-skincolor" href="disaster-response.html">Learn More<i class="fas fa-long-arrow-alt-right"></i></a>
+                                                    <a class="ttm-btn btn-inline ttm-btn-size-md ttm-icon-btn-right ttm-btn-color-skincolor" href="disaster-response.html">Learn More</a>
                                                 </div>
                                             </div>
                                         </div>
@@ -384,7 +384,7 @@ get_header();
                                                     <div class="featured-desc">
                                                         <p>The outside or all of the external faces of a building</p>
                                                     </div>
-                                                    <a class="ttm-btn btn-inline ttm-btn-size-md ttm-icon-btn-right ttm-btn-color-skincolor" href="general-builder.html">Learn More<i class="fas fa-long-arrow-alt-right"></i></a>
+                                                    <a class="ttm-btn btn-inline ttm-btn-size-md ttm-icon-btn-right ttm-btn-color-skincolor" href="general-builder.html">Learn More</a>
                                                 </div>
                                             </div>
                                         </div>
@@ -436,7 +436,7 @@ get_header();
                                                 <div class="ttm-box-view-overlay ttm-portfolio-box-view-overlay">
                                                     <!-- featured-thumbnail -->
                                                     <div class="featured-thumbnail">
-                                                        <a href="benoit-architecture.html"> <img class="img-fluid" src="images/portfolio/project01-650x700.jpg" alt="image"></a>
+                                                        <a href="benoit-architecture.html"> <img class="img-fluid" src="https://themetechmount.com/html/buildtab/images/portfolio/project01-650x700.jpg" alt="image"></a>
                                                     </div><!-- featured-thumbnail end-->
                                                     <div class="ttm-media-link">
                                                         <a href="benoit-architecture.html" class="ttm_link"><i class="ti ti-plus"></i></a>
@@ -460,7 +460,7 @@ get_header();
                                                 <div class="ttm-box-view-overlay ttm-portfolio-box-view-overlay">
                                                     <!-- featured-thumbnail -->
                                                     <div class="featured-thumbnail">
-                                                        <a href="contemporary-cilla.html"> <img class="img-fluid" src="images/portfolio/project02-650x700.jpg" alt="image"></a>
+                                                        <a href="contemporary-cilla.html"> <img class="img-fluid" src="https://themetechmount.com/html/buildtab/images/portfolio/project02-650x700.jpg" alt="image"></a>
                                                     </div><!-- featured-thumbnail end-->
                                                     <div class="ttm-media-link">
                                                         <a href="contemporary-cilla.html" class="ttm_link"><i class="ti ti-plus"></i></a>
@@ -484,7 +484,7 @@ get_header();
                                                 <div class="ttm-box-view-overlay ttm-portfolio-box-view-overlay">
                                                     <!-- featured-thumbnail -->
                                                     <div class="featured-thumbnail">
-                                                        <a href="house-of-cards.html"> <img class="img-fluid" src="images/portfolio/project03-650x700.jpg" alt="image"></a>
+                                                        <a href="house-of-cards.html"> <img class="img-fluid" src="https://themetechmount.com/html/buildtab/images/portfolio/project03-650x700.jpg" alt="image"></a>
                                                     </div><!-- featured-thumbnail end-->
                                                     <div class="ttm-media-link">
                                                         <a href="house-of-cards.html" class="ttm_link"><i class="ti ti-plus"></i></a>
@@ -508,7 +508,7 @@ get_header();
                                                 <div class="ttm-box-view-overlay ttm-portfolio-box-view-overlay">
                                                     <!-- featured-thumbnail -->
                                                     <div class="featured-thumbnail">
-                                                        <a href="benoit-architecture.html"> <img class="img-fluid" src="images/portfolio/project04-650x700.jpg" alt="image"></a>
+                                                        <a href="benoit-architecture.html"> <img class="img-fluid" src="https://themetechmount.com/html/buildtab/images/portfolio/project04-650x700.jpg" alt="image"></a>
                                                     </div><!-- featured-thumbnail end-->
                                                     <div class="ttm-media-link">
                                                         <a href="benoit-architecture.html" class="ttm_link"><i class="ti ti-plus"></i></a>
@@ -532,7 +532,7 @@ get_header();
                                                 <div class="ttm-box-view-overlay ttm-portfolio-box-view-overlay">
                                                     <!-- featured-thumbnail -->
                                                     <div class="featured-thumbnail">
-                                                        <a href="contemporary-cilla.html"> <img class="img-fluid" src="images/portfolio/project05-650x700.jpg" alt="image"></a>
+                                                        <a href="contemporary-cilla.html"> <img class="img-fluid" src="https://themetechmount.com/html/buildtab/images/portfolio/project05-650x700.jpg" alt="image"></a>
                                                     </div><!-- featured-thumbnail end-->
                                                     <div class="ttm-media-link">
                                                         <a href="contemporary-cilla.html" class="ttm_link"><i class="ti ti-plus"></i></a>
@@ -556,7 +556,7 @@ get_header();
                                                 <div class="ttm-box-view-overlay ttm-portfolio-box-view-overlay">
                                                     <!-- featured-thumbnail -->
                                                     <div class="featured-thumbnail">
-                                                        <a href="house-of-cards.html"> <img class="img-fluid" src="images/portfolio/project06-650x700.jpg" alt="image"></a>
+                                                        <a href="house-of-cards.html"> <img class="img-fluid" src="https://themetechmount.com/html/buildtab/images/portfolio/project06-650x700.jpg" alt="image"></a>
                                                     </div><!-- featured-thumbnail end-->
                                                     <div class="ttm-media-link">
                                                         <a href="house-of-cards.html" class="ttm_link"><i class="ti ti-plus"></i></a>
@@ -605,7 +605,7 @@ get_header();
                                                 <div class="testimonial-bottom">
                                                     <div class="testimonial-avatar">
                                                         <div class="testimonial-img">
-                                                            <img class="img-fluid" src="images/testimonial/testimonial01.jpg" alt="testimonial-img">
+                                                            <img class="img-fluid" src="https://themetechmount.com/html/buildtab/images/testimonial/testimonial01.jpg" alt="testimonial-img">
                                                         </div>
                                                     </div>
                                                     <div class="testimonial-caption">
@@ -622,7 +622,7 @@ get_header();
                                                 <div class="testimonial-bottom">
                                                     <div class="testimonial-avatar">
                                                         <div class="testimonial-img">
-                                                            <img class="img-fluid" src="images/testimonial/testimonial02.jpg" alt="testimonial-img">
+                                                            <img class="img-fluid" src="https://themetechmount.com/html/buildtab/images/testimonial/testimonial02.jpg" alt="testimonial-img">
                                                         </div>
                                                     </div>
                                                     <div class="testimonial-caption">
@@ -639,7 +639,7 @@ get_header();
                                                 <div class="testimonial-bottom">
                                                     <div class="testimonial-avatar">
                                                         <div class="testimonial-img">
-                                                            <img class="img-fluid" src="images/testimonial/testimonial03.jpg" alt="testimonial-img">
+                                                            <img class="img-fluid" src="https://themetechmount.com/html/buildtab/images/testimonial/testimonial03.jpg" alt="testimonial-img">
                                                         </div>
                                                     </div>
                                                     <div class="testimonial-caption">
@@ -684,12 +684,12 @@ get_header();
                                     </div>
                                 </div>
                                 <div class="col-6 res-991-w-100 ttm-box-col-wrapper">
-                                    <img class="img-fluid margin_top30 res-991-margin_top_0" src="images/single-img3.jpg" alt="single-img3">
+                                    <img class="img-fluid margin_top30 res-991-margin_top_0" src="https://themetechmount.com/html/buildtab/images/single-img3.jpg" alt="single-img3">
                                 </div>
                             </div>
                             <div class="row ttm-boxes-spacing-9px ">
                                 <div class="col-6 res-991-w-100 ttm-box-col-wrapper">
-                                    <img class="img-fluid" src="images/single-img4.jpg" alt="single-img4">
+                                    <img class="img-fluid" src="https://themetechmount.com/html/buildtab/images/single-img4.jpg" alt="single-img4">
                                 </div>
                                 <div class="col-6 res-991-w-100 ttm-box-col-wrapper">
                                     <div class="ttm-bg ttm-bgcolor-darkgrey ttm-col-bgimage-yes col-bg-img-three">
@@ -751,7 +751,7 @@ get_header();
                                         <div class="layer-content"> </div>
                                     </div>
                                     <!--col-image-four -->
-                                    <img class="img-fluid ttm-equal-height-image" src="images/bg-image/col-bgimage-2.jpg" alt="bg-image">
+                                    <img class="img-fluid ttm-equal-height-image" src="https://themetechmount.com/html/buildtab/images/bg-image/col-bgimage-2.jpg" alt="bg-image">
                                     <!--col-image-four -->
                                 </div>
                                 <div class="col-lg-6">
@@ -818,49 +818,49 @@ get_header();
                             <div class="col-lg-12">
                                 <div class="client-box style1">
                                     <div class="client-thumbnail">
-                                        <img class="img-fluid auto_size" width="160" height="98" src="images/client/client-01.png" alt="image">
+                                        <img class="img-fluid auto_size" width="160" height="98" src="https://themetechmount.com/html/buildtab/images/client/client-01.png" alt="image">
                                     </div>
                                 </div>
                             </div>
                             <div class="col-lg-12">
                                 <div class="client-box style1">
                                     <div class="client-thumbnail">
-                                        <img class="img-fluid auto_size" width="160" height="98" src="images/client/client-02.png" alt="image">
+                                        <img class="img-fluid auto_size" width="160" height="98" src="https://themetechmount.com/html/buildtab/images/client/client-02.png" alt="image">
                                     </div>
                                 </div>
                             </div>
                             <div class="col-lg-12">
                                 <div class="client-box style1">
                                     <div class="client-thumbnail">
-                                        <img class="img-fluid auto_size" width="160" height="98" src="images/client/client-03.png" alt="image">
+                                        <img class="img-fluid auto_size" width="160" height="98" src="https://themetechmount.com/html/buildtab/images/client/client-03.png" alt="image">
                                     </div>
                                 </div>
                             </div>
                             <div class="col-lg-12">
                                 <div class="client-box style1">
                                     <div class="client-thumbnail">
-                                        <img class="img-fluid auto_size" width="160" height="98" src="images/client/client-04.png" alt="image">
+                                        <img class="img-fluid auto_size" width="160" height="98" src="https://themetechmount.com/html/buildtab/images/client/client-04.png" alt="image">
                                     </div>
                                 </div>
                             </div>
                             <div class="col-lg-12">
                                 <div class="client-box style1">
                                     <div class="client-thumbnail">
-                                        <img class="img-fluid auto_size" width="160" height="98" src="images/client/client-05.png" alt="image">
+                                        <img class="img-fluid auto_size" width="160" height="98" src="https://themetechmount.com/html/buildtab/images/client/client-05.png" alt="image">
                                     </div>
                                 </div>
                             </div>
                             <div class="col-lg-12">
                                 <div class="client-box style1">
                                     <div class="client-thumbnail">
-                                        <img class="img-fluid auto_size" width="160" height="98" src="images/client/client-06.png" alt="image">
+                                        <img class="img-fluid auto_size" width="160" height="98" src="https://themetechmount.com/html/buildtab/images/client/client-06.png" alt="image">
                                     </div>
                                 </div>
                             </div>
                             <div class="col-lg-12">
                                 <div class="client-box style1">
                                     <div class="client-thumbnail">
-                                        <img class="img-fluid auto_size" width="160" height="98" src="images/client/client-07.png" alt="image">
+                                        <img class="img-fluid auto_size" width="160" height="98" src="https://themetechmount.com/html/buildtab/images/client/client-07.png" alt="image">
                                     </div>
                                 </div>
                             </div>
@@ -888,7 +888,7 @@ get_header();
                             <!-- featured-imagebox-post -->
                             <div class="featured-imagebox featured-imagebox-post style1">
                                 <div class="featured-thumbnail">
-                                    <img class="img-fluid" src="images/blog/blog-01-600x440.jpg" alt="">
+                                    <img class="img-fluid" src="https://themetechmount.com/html/buildtab/images/blog/blog-01-600x440.jpg" alt="">
                                 </div>
                                 <div class="featured-content">
                                     <!-- ttm-box-post-date -->
@@ -918,7 +918,7 @@ get_header();
                             <!-- featured-imagebox-post -->
                             <div class="featured-imagebox featured-imagebox-post style1">
                                 <div class="featured-thumbnail">
-                                    <img class="img-fluid" src="images/blog/blog-02-600x440.jpg" alt="">
+                                    <img class="img-fluid" src="https://themetechmount.com/html/buildtab/images/blog/blog-02-600x440.jpg" alt="">
                                 </div>
                                 <div class="featured-content">
                                     <!-- ttm-box-post-date -->
@@ -948,7 +948,7 @@ get_header();
                             <!-- featured-imagebox-post -->
                             <div class="featured-imagebox featured-imagebox-post style1">
                                 <div class="featured-thumbnail">
-                                    <img class="img-fluid" src="images/blog/blog-03-600x440.jpg" alt="">
+                                    <img class="img-fluid" src="https://themetechmount.com/html/buildtab/images/blog/blog-03-600x440.jpg" alt="">
                                 </div>
                                 <div class="featured-content">
                                     <!-- ttm-box-post-date -->
@@ -978,7 +978,7 @@ get_header();
                             <!-- featured-imagebox-post -->
                             <div class="featured-imagebox featured-imagebox-post style1">
                                 <div class="featured-thumbnail">
-                                    <img class="img-fluid" src="images/blog/blog-04-600x440.jpg" alt="">
+                                    <img class="img-fluid" src="https://themetechmount.com/html/buildtab/images/blog/blog-04-600x440.jpg" alt="">
                                 </div>
                                 <div class="featured-content">
                                     <!-- ttm-box-post-date -->
@@ -1008,7 +1008,7 @@ get_header();
                             <!-- featured-imagebox-post -->
                             <div class="featured-imagebox featured-imagebox-post style1">
                                 <div class="featured-thumbnail">
-                                    <img class="img-fluid" src="images/blog/blog-05-600x440.jpg" alt="">
+                                    <img class="img-fluid" src="https://themetechmount.com/html/buildtab/images/blog/blog-05-600x440.jpg" alt="">
                                 </div>
                                 <div class="featured-content">
                                     <!-- ttm-box-post-date -->

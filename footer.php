@@ -77,9 +77,9 @@
                                                         <i class="fa fa-facebook"></i></a></li>
                                                 <li><a class="tooltip-top" href="https://www.instagram.com/theme_tech_mount/" rel="noopener" aria-label="instagram" data-tooltip="instagram">
                                                         <i class="fa fa-instagram"></i></a></li>
-                                                <li><a class="tooltip-top" href="https://www.linkedin.com/company/themetech-mount/" rel="noopener" aria-label="linkedin" data-tooltip="linkedin">
+                                                <li><a class="tooltip-top" href="https://www.linkedin.com/company/themetech-mount/" rel="noopener" aria-label="twitter" data-tooltip="Twitter">
                                                         <i class="fa fa-linkedin"></i></a></li>
-                                                <li><a class="tooltip-top" href="https://in.pinterest.com/themetechmount/_created/" rel="noopener" aria-label="pinterest" data-tooltip="Linkedin"><i class="fa fa-pinterest-p"></i></a></li>
+                                                <li><a class="tooltip-top" href="https://in.pinterest.com/themetechmount/_created/" rel="noopener" aria-label="linkedin" data-tooltip="Linkedin"><i class="fa fa-pinterest-p"></i></a></li>
                                             </ul>
                                         </div>
                                     </div>
