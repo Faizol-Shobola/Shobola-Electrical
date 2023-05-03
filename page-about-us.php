@@ -355,86 +355,9 @@ get_header();
                     </div>
                     <div class="row slick_slider" data-slick='{"slidesToShow": 2, "slidesToScroll": 1, "arrows":false, "dots":false, "autoplay":true, "infinite":true, "responsive": [{"breakpoint":1024,"settings":{"slidesToShow": 2}} , {"breakpoint":900,"settings":{"slidesToShow": 1}},
                      {"breakpoint":575,"settings":{"slidesToShow": 1}}]}'>
-                        <!-- testimonials -->
-                        <div class="testimonials ttm-testimonial-box-view-style2">
-                            <div class="testimonial-avatar">
-                                <div class="testimonial-img">
-                                    <img class="img-center" src="images/testimonial/testimonial01.jpg" alt="testimonial-img">
-                                </div>
-                            </div>
-                            <div class="testimonial-content">
-                                <blockquote>BuildTab Contractor & builders is the best general contractors we have worked with. The entire team tactfully delivered a project of exceptional quality while staying on schedule & under budget.</blockquote>
-                                <div class="testimonial-caption">
-                                    <h5>Jhon Nicholas</h5>
-                                    <label>Event Guest</label>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- testimonials end -->
-                        <!-- testimonials -->
-                        <div class="testimonials ttm-testimonial-box-view-style2">
-                            <div class="testimonial-avatar">
-                                <div class="testimonial-img">
-                                    <img class="img-center" src="images/testimonial/testimonial01.jpg" alt="testimonial-img">
-                                </div>
-                            </div>
-                            <div class="testimonial-content">
-                                <blockquote>BuildTab Contractor & builders is the best general contractors we have worked with. The entire team tactfully delivered a project of exceptional quality while staying on schedule & under budget.</blockquote>
-                                <div class="testimonial-caption">
-                                    <h5>Jhon Nicholas</h5>
-                                    <label>Event Guest</label>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- testimonials end -->
-                        <!-- testimonials -->
-                        <div class="testimonials ttm-testimonial-box-view-style2">
-                            <div class="testimonial-avatar">
-                                <div class="testimonial-img">
-                                    <img class="img-center" src="images/testimonial/testimonial01.jpg" alt="testimonial-img">
-                                </div>
-                            </div>
-                            <div class="testimonial-content">
-                                <blockquote>BuildTab Contractor & builders is the best general contractors we have worked with. The entire team tactfully delivered a project of exceptional quality while staying on schedule & under budget.</blockquote>
-                                <div class="testimonial-caption">
-                                    <h5>Jhon Nicholas</h5>
-                                    <label>Event Guest</label>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- testimonials end -->
-                        <!-- testimonials -->
-                        <div class="testimonials ttm-testimonial-box-view-style2">
-                            <div class="testimonial-avatar">
-                                <div class="testimonial-img">
-                                    <img class="img-center" src="images/testimonial/testimonial01.jpg" alt="testimonial-img">
-                                </div>
-                            </div>
-                            <div class="testimonial-content">
-                                <blockquote>BuildTab Contractor & builders is the best general contractors we have worked with. The entire team tactfully delivered a project of exceptional quality while staying on schedule & under budget.</blockquote>
-                                <div class="testimonial-caption">
-                                    <h5>Jhon Nicholas</h5>
-                                    <label>Event Guest</label>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- testimonials end -->
-                        <!-- testimonials -->
-                        <div class="testimonials ttm-testimonial-box-view-style2">
-                            <div class="testimonial-avatar">
-                                <div class="testimonial-img">
-                                    <img class="img-center" src="images/testimonial/testimonial01.jpg" alt="testimonial-img">
-                                </div>
-                            </div>
-                            <div class="testimonial-content">
-                                <blockquote>BuildTab Contractor & builders is the best general contractors we have worked with. The entire team tactfully delivered a project of exceptional quality while staying on schedule & under budget.</blockquote>
-                                <div class="testimonial-caption">
-                                    <h5>Jhon Nicholas</h5>
-                                    <label>Event Guest</label>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- testimonials end -->
+                     
+                        <?php get_template_part( 'template-parts/content', 'testimonial1')?>
+                        
                     </div>
                 </div>
             </section>
