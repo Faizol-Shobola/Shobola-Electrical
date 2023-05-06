@@ -11,22 +11,17 @@ get_header();
 ?>
 
 
-    <!-- page-title -->
-    <div class="ttm-page-title ttm-bg clearfix" style="background-image: url(images/contact.jpg);">
+        <!-- page-title -->
+        <div class="ttm-page-title ttm-bg clearfix" style="background-image: url(images/contact.jpg);">
             <div class="container">
                 <div class="row align-items-center">
                     <div class="col-lg-12">
                         <div class="ttm-page-title-row-inner">
                             <div class="page-title-heading">
-                                <h2 class="title">Contact Us</h2>
+                                <h2 class="title"><?php the_title(); ?></h2>
                             </div>
                             <div class="breadcrumb-wrapper">
-                                <span>
-                                    <a title="Homepage" href="index-2.html">
-                                        <i class="themifyicon ti-home"></i> &nbsp;
-                                        Home</a>
-                                </span>
-                                <span>Contact Us</span>
+                                <span><?php get_breadcrumb(); ?></span>
                             </div>
                         </div>
                     </div>

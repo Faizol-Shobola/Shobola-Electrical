@@ -3244,25 +3244,8 @@ Page-Title-Row
   position: relative;
 }
 
-.breadcrumb-wrapper span:first-child {
-  padding-right: 20px;
-}
-
 .breadcrumb-wrapper span:first-child a {
   color: var(--white-color);
-}
-
-.breadcrumb-wrapper span:first-child:after {
-  position: absolute;
-  content: "\f105";
-  font-family: "FontAwesome";
-  font-size: 14px;
-  line-height: 17px;
-  margin-left: 4px;
-  margin-top: 2px;
-  opacity: 1;
-  color: var(--white-color);
-  background-color: transparent;
 }
 
 .breadcrumb-wrapper {
@@ -3271,7 +3254,6 @@ Page-Title-Row
   padding: 12px 30px;
   line-height: 20px;
   margin: 0 auto;
-  
 }
 
 .breadcrumb-wrapper {

@@ -186,6 +186,28 @@ function shobola_electrical_widgets_init() {
 }
 add_action( 'widgets_init', 'shobola_electrical_widgets_init' );
 
+
+function get_breadcrumb() {
+    echo '<a href="'.home_url().'" rel="nofollow">
+			<i class="themifyicon ti-home"></i> 
+			&nbsp;Home&nbsp;&nbsp;&#187;&nbsp;&nbsp;
+		</a>';
+	echo "";
+    if (is_category() || is_single()) {
+        the_category(' &bull; ');
+            if (is_single()) {
+                the_title();
+            }
+    } elseif (is_page()) {
+        echo the_title();
+    } elseif (is_search()) {
+        echo '"<em>';
+        echo the_search_query();
+        echo '</em>"';
+    }
+}
+
+
 /**
  * Enqueue scripts and styles.
  */
