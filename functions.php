@@ -222,6 +222,7 @@ function shobola_electrical_scripts() {
 	wp_enqueue_style( 'shortcodes', get_template_directory_uri() . '/css/shortcodes.css', array(), false, 'all');
 	wp_enqueue_style( 'bootstrap', get_template_directory_uri() . '/css/bootstrap.min.css', array(), false, 'all');
 	wp_enqueue_style( 'main', get_template_directory_uri() . '/css/main.css', array(), false, 'all');
+	wp_enqueue_style( 'extend', get_template_directory_uri() . '/css/extend.css', array(), false, 'all');
 
 	// revolution slider css
 	wp_enqueue_style( 'rs6', get_template_directory_uri() . '/revolution/css/rs6.css', array(), false, 'all');

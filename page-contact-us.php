@@ -111,7 +111,7 @@ get_header();
                     <div class="row">
                         <div class="col-lg-8">
                             <div class=" ttm-bgcolor-white p-40 res-991-margin_right0 ">
-                                <form id="contact_form" class="wrap-form contact_form padding_top15" method="post" action="#">
+                                <!-- <form id="contact_form" class="wrap-form contact_form padding_top15" method="post" action="#">
                                     <div class="row ttm-boxes-spacing-30px">
                                         <div class="col-sm-6 ttm-box-col-wrapper">
                                             <label>
@@ -144,7 +144,8 @@ get_header();
                                             <button class="submit ttm-btn ttm-btn-size-md ttm-btn-shape-square ttm-btn-style-fill ttm-btn-color-skincolor w-100" type="submit">Send Now!</button>
                                         </div>
                                     </div>
-                                </form>
+                                </form> -->
+                                <?php the_content(); ?>
                             </div>
                         </div>
                         <div class="col-lg-4">
