@@ -11,19 +11,15 @@ div.wpcf7 p{
 }
 div.wpcf7 .wpcf7-form-control-wrap {
     position: relative;
-    flex: 0 0 auto;
-    width: 50%;
-    padding-right: 15px;
-    padding-left: 15px;
-    padding-bottom: 30px;
+    padding: 0px 0px 10px;
+
 }
 div.wpcf7 .wpcf7-form-control-wrap:last-child{
+    padding: 25px 0px;
     width: 100%;
 }
 div.wpcf7 p:last-child{
-	padding-right: 15px;
-    padding-left: 15px;
-    padding-bottom: 30px;
+    padding: 0px 15px 30px;
 }
 div.wpcf7 p label {
     font-weight: bold;
@@ -77,6 +73,7 @@ div.wpcf7 p label {
     width: 100%;
     display: inline-block;
     vertical-align: middle;
+    margin: 0px auto;
     font-size: 16px;
     line-height: normal;
     color: #fff;
@@ -101,6 +98,24 @@ div.wpcf7 p label {
 	background-color: #fff;
 	border: 2px solid var(--dark-grey-color);
 	background-color: var(--dark-grey-color);
+}
+
+@media (min-width: 576px) {
+    div.wpcf7 .wpcf7-form-control-wrap {
+        flex: 0 0 auto;
+        width: 50%;
+    }
+    .wpcf7-form input[type="submit"] {
+        width: 95%;
+    }
+    div.wpcf7 .wpcf7-form-control-wrap {
+        position: relative;
+        padding: 0px 15px 30px;
+    }
+    div.wpcf7 .wpcf7-form-control-wrap:last-child{
+        width: 100%;
+        padding: 0px 15px 30px;
+    }
 }
 
 /* Contact form validations */

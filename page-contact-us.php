@@ -111,40 +111,6 @@ get_header();
                     <div class="row">
                         <div class="col-lg-8">
                             <div class=" ttm-bgcolor-white p-40 res-991-margin_right0 ">
-                                <!-- <form id="contact_form" class="wrap-form contact_form padding_top15" method="post" action="#">
-                                    <div class="row ttm-boxes-spacing-30px">
-                                        <div class="col-sm-6 ttm-box-col-wrapper">
-                                            <label>
-                                                <span class="text-input margin_bottom0"><input name="your-name" type="text" value="" placeholder="Your Name*" required="required"></span>
-                                            </label>
-                                        </div>
-                                        <div class="col-sm-6 ttm-box-col-wrapper">
-                                            <label>
-                                                <span class="text-input margin_bottom0"><input name="Phone" type="text" value="" placeholder="Your Phone*" required="required"></span>
-                                            </label>
-                                        </div>
-                                        <div class="col-sm-6 ttm-box-col-wrapper">
-                                            <label>
-                                                <span class="text-input margin_bottom0"><input name="Email" type="text" value="" placeholder="Email Address*" required="required"></span>
-                                            </label>
-                                        </div>
-                                        <div class="col-sm-6 ttm-box-col-wrapper">
-                                            <label>
-                                                <span class="text-input margin_bottom0"><input name="Subject" type="text" value="" placeholder="Subject*" required="required"></span>
-                                            </label>
-                                        </div>
-                                        <div class="col-sm-12 ttm-box-col-wrapper">
-                                            <label>
-                                                <span class="text-input margin_bottom0"><textarea name="your-message" cols="40" rows="6" placeholder="Your Message" aria-required="true"></textarea></span>
-                                            </label>
-                                        </div>
-                                    </div>
-                                    <div class="row">
-                                        <div class="col-sm-12">
-                                            <button class="submit ttm-btn ttm-btn-size-md ttm-btn-shape-square ttm-btn-style-fill ttm-btn-color-skincolor w-100" type="submit">Send Now!</button>
-                                        </div>
-                                    </div>
-                                </form> -->
                                 <?php the_content(); ?>
                             </div>
                         </div>
