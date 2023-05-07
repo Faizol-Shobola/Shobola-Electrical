@@ -26,7 +26,23 @@
           </div>
           <div class="ttm-blogbox-footer">
               <div class="post-meta">
-                  <span class="ttm-meta-line byline"><i class="ti ti-user"></i>John Doe</span>
+                  <span class="ttm-meta-line byline"><i class="ti ti-user"></i>
+                <?php
+
+                    $fname = get_the_author_meta('first_name');
+                    $lname = get_the_author_meta('last_name');
+                    $full_name = '';
+
+                    if( empty($fname)){
+                        $full_name = $lname;
+                    } elseif( empty( $lname )){
+                        $full_name = $fname;
+                    } else {
+                        //both first name and last name are present
+                        $full_name = "{$fname} {$lname}";
+                    }
+                    
+                    echo $full_name; ?></span>
                   <!-- <span class="ttm-meta-line tags-links"><i class="fa fa-comments-o"></i>0 Comments</span> -->
               </div>
               <a class="ttm-btn ttm-btn-size-md ttm-btn-color-dark btn-inline ttm-icon-btn-right" href="<?php the_permalink(); ?>">Read More<i class="fa fa-long-arrow-right"></i></a>

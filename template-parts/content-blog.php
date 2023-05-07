@@ -27,10 +27,24 @@
           </div><!-- ttm-box-post-date end -->
           <div class="post-meta">
               <span class="ttm-meta-line byline">
-                  <i class="ti ti-user"></i>John Doe</span>
-              <span class="ttm-meta-line comments-link">
-                  <i class="fa fa-comments-o"></i>
-                  0 Comments</span>
+                  <i class="ti ti-user"></i>
+                  <?php
+
+                    $fname = get_the_author_meta('first_name');
+                    $lname = get_the_author_meta('last_name');
+                    $full_name = '';
+
+                    if( empty($fname)){
+                        $full_name = $lname;
+                    } elseif( empty( $lname )){
+                        $full_name = $fname;
+                    } else {
+                        //both first name and last name are present
+                        $full_name = "{$fname} {$lname}";
+                    }
+                    
+                    echo $full_name; ?></span>
+              
           </div>
           <div class="featured-title">
               <h3><a href="<?php the_permalink();?>"><?php the_title(); ?></a></h3>
