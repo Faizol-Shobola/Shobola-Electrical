@@ -10,31 +10,58 @@
 get_header();
 ?>
 
-	<main id="primary" class="site-main">
+		<!-- page-title -->
+		<div class="ttm-page-title-row ttm-bg ttm-bgimage-yes ttm-bgcolor-dark clearfix">
+			<div class="ttm-row-wrapper-bg-layer ttm-bg-layer"></div>
+			<div class="container">
+					<div class="row align-items-center">
+							<div class="col-lg-12">
+									<div class="ttm-page-title-row-inner">
+											<div class="page-title-heading">
+													<h2 class="title"><?php the_title(); ?></h2>
+											</div>
+											<div class="breadcrumb-wrapper">
+													<span>
+															<a title="Homepage" href="index-2.html">
+																	<i class="themifyicon ti-home"></i> &nbsp;
+																	Home</a>
+													</span>
+													<span>Blog</span>
+											</div>
+									</div>
+							</div>
+					</div>
+			</div>
+		</div>
+		<!-- page-title end -->
+			 <!--site-main start-->
+        <div class="site-main">
+            <!--blog-classic-section -->
+            <div class="ttm-row sidebar ttm-sidebar-right clearfix">
+                <div class="container">
+                    <!-- row -->
+                    <div class="row">
+                        <?php
+                        while ( have_posts() ) :
+                            the_post();
+                        
+                            get_template_part( 'template-parts/content', get_post_type() );
 
-		<?php
-		while ( have_posts() ) :
-			the_post();
+                        endwhile; // End of the loop.
+                        ?>
 
-			get_template_part( 'template-parts/content', get_post_type() );
+                        <!-- Sidebar -->
+                        <?php 
+                        get_template_part( 'template-parts/content', 'sidebar' ); ?>
+			
+                    </div><!-- row end -->
+                </div>
+            </div>
+            <!--blog-classic-section-end-->
+        </div>
+        <!--site-main end-->
 
-			the_post_navigation(
-				array(
-					'prev_text' => '<span class="nav-subtitle">' . esc_html__( 'Previous:', 'shobola-electrical' ) . '</span> <span class="nav-title">%title</span>',
-					'next_text' => '<span class="nav-subtitle">' . esc_html__( 'Next:', 'shobola-electrical' ) . '</span> <span class="nav-title">%title</span>',
-				)
-			);
 
-			// If comments are open or we have at least one comment, load up the comment template.
-			if ( comments_open() || get_comments_number() ) :
-				comments_template();
-			endif;
-
-		endwhile; // End of the loop.
-		?>
-
-	</main><!-- #main -->
 
 <?php
-get_sidebar();
 get_footer();
