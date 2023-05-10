@@ -22,6 +22,25 @@
                             </div>
                             <ul class="tabs portfolio-filter res-991-padding_bottom15 res-991-padding_top30">
                                 <li class="tab active"><a href="#" data-filter="*"> All </a></li>
+                                <?php
+                                $args = array(
+                                            'taxonomy' => 'project_category',
+                                            'orderby' => 'name',
+                                            'order'   => 'ASC'
+                                        );
+
+                                $cats = get_categories($args);
+
+                                foreach($cats as $cat) {
+                                ?>
+                                    <li class="tab">
+                                        <a href="<?php echo get_category_link( $cat->term_id ) ?>" data-filter="<?php echo '.'. $cat->name; ?>">
+                                            <?php echo $cat->name; ?>
+                                        </a>
+                                    </li>
+                                <?php
+                                }
+                                ?>
                             </ul>
                         </div>
                         <div class="content-tab">
