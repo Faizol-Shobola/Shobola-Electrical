@@ -6,7 +6,7 @@
                 <div class="col-lg-12">
                     <div class="ttm-tabs ttm-tab-style-03">
                         <div class="d-lg-flex align-items-center justify-content-between">
-                            <div class="ttm-bg ttm-col-bgcolor-yes ttm-bg ttm-left-span res-991-padding_top50 res-991-padding_right30  res-991-padding_bottom30 res-991-mt_40  res-991-mr_20">
+                            <div class="ttm-bg ttm-col-bgcolor-yes ttm-bgcolor-grey ttm-bg ttm-left-span res-991-padding_top50 res-991-padding_right30  res-991-padding_bottom30 res-991-mt_40  res-991-mr_20">
                                 <div class="ttm-col-wrapper-bg-layer ttm-bg-layer spacing-1">
                                     <div class="ttm-col-wrapper-bg-layer-inner"></div>
                                 </div>
@@ -24,17 +24,17 @@
                                 <li class="tab active"><a href="#" data-filter="*"> All </a></li>
                                 <?php
                                 $args = array(
-                                            'taxonomy' => 'project_category',
-                                            'orderby' => 'name',
-                                            'order'   => 'ASC'
-                                        );
+                                    'taxonomy' => 'project_category',
+                                    'orderby' => 'name',
+                                    'order'   => 'ASC'
+                                );
 
                                 $cats = get_categories($args);
 
                                 foreach($cats as $cat) {
                                 ?>
                                     <li class="tab">
-                                        <a href="<?php echo get_category_link( $cat->term_id ) ?>" data-filter="<?php echo '.'. $cat->name; ?>">
+                                        <a href="#" data-filter="<?php echo '.'. $cat->name; ?>">
                                             <?php echo $cat->name; ?>
                                         </a>
                                     </li>
