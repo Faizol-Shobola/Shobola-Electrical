@@ -11,7 +11,104 @@ get_header();
 ?>
 
         <!-- Banner -->
-        
+        <p class="rs-p-wp-fix"></p>
+        <rs-module-wrap id="rev_slider_3_1_wrapper" data-alias="main-classic-03" data-source="gallery" style="visibility:hidden;background:transparent;padding:0;margin:0px auto;margin-top:0;margin-bottom:0;">
+            <rs-module id="rev_slider_3_1" style="" data-version="6.5.7">
+                <rs-slides>
+                    <?php
+                    $slide_1 = get_field('slide_1');
+                    if( $slide_1 ): ?>
+                        <rs-slide style="position: absolute;" data-key="rs-6" data-title="Slide" data-thumb="<?php echo esc_url( $slide_1['background_image']['url'] ); ?>" data-in="o:0;" data-out="a:false;">
+                            <img src="<?php echo esc_url( $slide_1['background_image']['url'] ); ?>" title="<?php echo esc_attr( $slide_1['background_image']['alt'] ); ?>" width="1920" height="840" class="rev-slidebg tp-rs-img" data-no-retina>
+                            <!--
+                                -->
+                            <rs-layer id="slider-3-slide-6-layer-0" data-type="text" data-color="#FFFFFF" data-rsp_ch="on" data-xy="x:l,l,c,c;xo:79px,79px,0,520px;y:m;yo:-105px,-105px,-134px,-34px;" data-text="w:normal;s:16,16,16,15;l:25,25,20,12;ls:1px,1px,0px,0px;fw:600;" data-vbility="t,t,t,f" data-frame_0="x:-50,-50,-31,-19;" data-frame_1="st:100;sp:500;sR:100;" data-frame_999="o:0;st:w;sR:8400;" style="z-index:8;font-family:'Poppins';text-transform:uppercase;"><?php echo ($slide_1['text']['layer_1']) ?>
+                            </rs-layer>
+                            <!--
+
+                                -->
+                            <rs-layer id="slider-3-slide-6-layer-1" data-type="text" data-color="#FFFFFF" data-rsp_ch="on" data-xy="x:l,l,c,c;xo:79px,79px,0,0;y:m;yo:-42px,-42px,-77px,-89px;" data-text="w:normal;s:65,65,55,40;l:90,90,56,50;fw:800;" data-frame_0="x:-50,-50,-31,-19;" data-frame_1="st:180;sp:800;sR:180;" data-frame_999="o:0;st:w;sR:8020;" style="z-index:9;font-family:'inter';"> <?php echo ($slide_1['text']['layer_2']) ?>
+                            </rs-layer>
+                            <!--
+
+                                -->
+                            <rs-layer id="slider-3-slide-6-layer-2" data-type="text" data-color="#FFFFFF" data-rsp_ch="on" data-xy="x:l,l,c,c;xo:79px,79px,0,0;y:m;yo:42px,42px,-11px,-32px;" data-text="w:normal;s:65,65,55,40;l:90,90,56,50;fw:800;" data-frame_0="x:-50,-50,-31,-19;" data-frame_1="st:260;sp:800;sR:260;" data-frame_999="o:0;st:w;sR:7940;" style="z-index:10;font-family:'inter';"><?php echo ($slide_1['text']['layer_3']) ?>
+                            </rs-layer>
+                            <!--
+
+                                -->
+                            <rs-layer id="slider-3-slide-6-layer-3" data-type="shape" data-rsp_ch="on" data-xy="xo:35px,35px,-238px,-146px;y:m;yo:-34px,-34px,33px,20px;" data-text="w:normal;s:20,20,12,7;l:0,0,15,9;" data-dim="w:7px,7px,3px,1px;h:260px,260px,162px,99px;" data-vbility="t,t,f,f" data-frame_0="x:50,50,31,19;" data-frame_1="st:110;sp:400;sR:110;" data-frame_999="o:0;st:w;sR:8490;" style="z-index:14;background-color:#e51f22;">
+                            </rs-layer>
+                            <!--
+
+                                -->
+                            <rs-layer id="slider-3-slide-6-layer-4" data-type="shape" data-rsp_ch="on" data-xy="xo:35px,35px,-281px,-173px;y:m;yo:-163px,-163px,-90px,-55px;" data-text="w:normal;s:20,20,12,7;l:0,0,15,9;" data-dim="w:200px,200px,125px,77px;h:7px,7px,3px,1px;" data-vbility="t,t,f,f" data-frame_0="x:50,50,31,19;" data-frame_1="st:110;sp:400;sR:110;" data-frame_999="o:0;st:w;sR:8490;" style="z-index:13;background-color:#e51f22;">
+                            </rs-layer>
+                            <!--
+
+                                --><a id="slider-3-slide-6-layer-5" class="rs-layer ttm-btn" href="<?php echo ($slide_1['buttons']['button_1']['link']) ?>" target="_self" rel="nofollow" data-type="text" data-color="#FFFFFF" data-rsp_ch="on" data-xy="x:l,l,c,c;xo:84px,84px,0,0;y:m;yo:144px,144px,68px,31px;" data-text="w:normal;s:14,14,14,13;l:20,20,14,13;fw:700;" data-padding="t:13,13,12,12;r:27,27,30,25;b:13,13,12,12;l:30,30,30,25;" data-border="bos:solid;boc:#FFFFFF;bow:2px,2px,2px,2px;" data-frame_0="y:100%;" data-frame_1="e:power4.inOut;st:260;sp:500;sR:260;" data-frame_999="o:0;st:w;sR:8240;" data-frame_hover="c:#fff;bgc:#e51f22;boc:#e51f22;bos:solid;bow:2px,2px,2px,2px;" style="z-index:12;font-family:'inter';"><?php echo ($slide_1['buttons']['button_1']['text']) ?> <i class="fa fa-long-arrow-right"></i>
+                            </a>
+                            <!--
+
+                                --><a id="slider-3-slide-6-layer-13" class="rs-layer ttm-btn" href="<?php echo ($slide_1['buttons']['button_2']['link']) ?>" target="_self" rel="nofollow" data-type="text" data-color="#fff" data-rsp_ch="on" data-xy="x:l,l,c,c;xo:270px,270px,0,0;y:m;yo:144px,144px,124px,85px;" data-text="w:normal;s:14,14,14,13;l:20,20,14,13;fw:700;" data-padding="t:13,13,12,12;r:25,25,30,25;b:13,13,12,12;l:30,30,30,25;" data-border="bos:solid;boc:#e51f22;bow:2px,2px,2px,2px;" data-frame_0="y:100%;" data-frame_1="e:power4.inOut;st:260;sp:500;sR:260;" data-frame_999="o:0;st:w;sR:8240;" data-frame_hover="c:#fff;bgc:#111111;boc:#111111;bos:solid;bow:2px,2px,2px,2px;" style="z-index:11;background-color:#e51f22;font-family:'inter';"><?php echo ($slide_1['buttons']['button_2']['text']) ?> <i class="fa fa-long-arrow-right"></i>
+                            </a>
+                            <!--
+
+                                -->
+                            <rs-layer id="slider-3-slide-6-layer-14" data-type="image" data-rsp_ch="on" data-xy="x:c;xo:-349px,-349px,-218px,-134px;y:m;yo:-169px,-169px,-105px,-64px;" data-text="w:normal;s:20,20,12,7;l:0,0,15,9;" data-dim="w:42px,42px,25px,15px;h:53px,53px,32px,19px;" data-vbility="t,t,f,f" data-frame_0="rY:360deg;" data-frame_1="e:back.out;st:310;sp:500;sR:310;" data-frame_999="o:0;st:w;sR:8190;" style="z-index:15;"><img src="http://shobolaelectrical.test/wp-content/uploads/2023/05/shobola-1-3.png" class="tp-rs-img" width="43" height="54" alt="rev-img" data-no-retina>
+                            </rs-layer>
+                            <!--
+                            -->
+                        </rs-slide>
+                    <?php endif; ?>
+                    <?php
+                    $slide_2 = get_field('slide_2');
+                    if( $slide_2 ): ?>
+                        <rs-slide style="position: absolute;" data-key="rs-8" data-title="Slide" data-thumb="<?php echo esc_url( $slide_2['background_image']['url'] ); ?>" data-in="o:0;" data-out="a:false;">
+                            <img src="<?php echo esc_url( $slide_2['background_image']['url'] ); ?>" title="<?php echo esc_url( $slide_2['background_image']['alt'] ); ?>" width="1920" height="840" class="rev-slidebg tp-rs-img" data-no-retina>
+                            <!--
+                                -->
+                            <rs-layer id="slider-3-slide-8-layer-0" data-type="text" data-color="#FFFFFF" data-rsp_ch="on" data-xy="x:r,r,c,c;xo:74px,74px,0,520px;y:m;yo:-100px,-100px,-128px,-34px;" data-text="w:normal;s:16,16,16,15;l:25,25,20,12;ls:1px,1px,0px,0px;fw:600;" data-vbility="t,t,t,f" data-frame_0="x:-50,-50,-31,-19;" data-frame_1="st:100;sp:500;sR:100;" data-frame_999="o:0;st:w;sR:8400;" style="z-index:8;font-family:'Poppins';text-transform:uppercase;"><?php echo ($slide_1['text']['layer_1']) ?>
+                            </rs-layer>
+                            <!--
+
+                                -->
+                            <rs-layer id="slider-3-slide-8-layer-1" data-type="text" data-color="#FFFFFF" data-rsp_ch="on" data-xy="x:r,r,c,c;xo:74px,74px,0,0;y:m;yo:-40px,-40px,-77px,-89px;" data-text="w:normal;s:65,65,55,40;l:90,90,56,50;fw:800;" data-frame_0="x:-50,-50,-31,-19;" data-frame_1="st:180;sp:800;sR:180;" data-frame_999="o:0;st:w;sR:8020;" style="z-index:9;font-family:'inter';"><?php echo ($slide_1['text']['layer_2']) ?>
+                            </rs-layer>
+                            <!--
+
+                                -->
+                            <rs-layer id="slider-3-slide-8-layer-2" data-type="text" data-color="#FFFFFF" data-rsp_ch="on" data-xy="x:r,r,c,c;xo:74px,74px,0,0;y:m;yo:45px,45px,-11px,-32px;" data-text="w:normal;s:65,65,55,40;l:90,90,56,50;fw:800;" data-frame_0="x:-50,-50,-31,-19;" data-frame_1="st:260;sp:800;sR:260;" data-frame_999="o:0;st:w;sR:7940;" style="z-index:10;font-family:'inter';"><?php echo ($slide_1['text']['layer_3']) ?>
+                            </rs-layer>
+                            <!--
+
+                                -->
+                            <rs-layer id="slider-3-slide-8-layer-3" data-type="shape" data-rsp_ch="on" data-xy="x:r;xo:30px,30px,-238px,-146px;y:m;yo:-34px,-34px,33px,20px;" data-text="w:normal;s:20,20,12,7;l:0,0,15,9;" data-dim="w:7px,7px,3px,1px;h:260px,260px,162px,99px;" data-vbility="t,t,f,f" data-frame_0="x:50,50,31,19;" data-frame_1="st:110;sp:400;sR:110;" data-frame_999="o:0;st:w;sR:8490;" style="z-index:14;background-color:#e51f22;">
+                            </rs-layer>
+                            <!--
+
+                                -->
+                            <rs-layer id="slider-3-slide-8-layer-4" data-type="shape" data-rsp_ch="on" data-xy="x:r;xo:30px,30px,-281px,-173px;y:m;yo:-163px,-163px,-90px,-55px;" data-text="w:normal;s:20,20,12,7;l:0,0,15,9;" data-dim="w:200px,200px,125px,77px;h:7px,7px,3px,1px;" data-vbility="t,t,f,f" data-frame_0="x:50,50,31,19;" data-frame_1="st:110;sp:400;sR:110;" data-frame_999="o:0;st:w;sR:8490;" style="z-index:13;background-color:#e51f22;">
+                            </rs-layer>
+                            <!--
+
+                                --><a id="slider-3-slide-8-layer-5" class="rs-layer ttm-btn" href="<?php echo ($slide_2['buttons']['button_1']['link']) ?>" target="_self" rel="nofollow" data-type="text" data-color="#FFFFFF" data-rsp_ch="on" data-xy="x:r,r,c,c;xo:260px,260px,0,0;y:m;yo:144px,144px,62px,31px;" data-text="w:normal;s:14,14,14,13;l:20,20,14,13;fw:700;" data-padding="t:13,13,12,12;r:27,27,30,25;b:13,13,12,12;l:30,30,30,25;" data-border="bos:solid;boc:#FFFFFF;bow:2px,2px,2px,2px;" data-frame_0="y:100%;" data-frame_1="e:power4.inOut;st:260;sp:500;sR:260;" data-frame_999="o:0;st:w;sR:8240;" data-frame_hover="c:#fff;bgc:#e51f22;boc:#e51f22;bos:solid;bow:2px,2px,2px,2px;" style="z-index:12;font-family:'inter';"><?php echo ($slide_2['buttons']['button_1']['text']) ?> <i class="fa fa-long-arrow-right"></i>
+                            </a>
+                            <!--
+
+                                --><a id="slider-3-slide-8-layer-13" class="rs-layer ttm-btn" href="<?php echo ($slide_2['buttons']['button_2']['link']) ?>" target="_self" rel="nofollow" data-type="text" data-color="#fff" data-rsp_ch="on" data-xy="x:r,r,c,c;xo:74px,74px,0,0;y:m;yo:144px,144px,120px,85px;" data-text="w:normal;s:14,14,14,13;l:20,20,14,13;fw:700;" data-padding="t:13,13,12,12;r:25,25,30,25;b:13,13,12,12;l:30,30,30,25;" data-border="bos:solid;boc:#e51f22;bow:2px,2px,2px,2px;" data-frame_0="y:100%;" data-frame_1="e:power4.inOut;st:260;sp:500;sR:260;" data-frame_999="o:0;st:w;sR:8240;" data-frame_hover="c:#fff;bgc:#111111;boc:#111111;bos:solid;bow:2px,2px,2px,2px;" style="z-index:11;background-color:#e51f22;font-family:'inter';"><?php echo ($slide_2['buttons']['button_2']['text']) ?> <i class="fa fa-long-arrow-right"></i>
+                            </a>
+                            <!--
+
+                                --><a id="slider-3-slide-8-layer-18" class="rs-layer ttm_prettyphoto" href="https://www.youtube.com/watch?v=7e90gBu4pas" target="_self" rel="nofollow" data-type="text" data-color="#fff" data-rsp_ch="on" data-xy="x:c;xo:350px,350px,520px,320px;y:m;yo:-165px,-165px,25px,15px;" data-text="w:normal;s:25,25,15,9;l:55,55,34,20;a:center;" data-dim="w:55px,55px,34px,20px;h:55px,55px,34px,20px;" data-vbility="t,t,f,f" data-frame_0="rY:360deg;" data-frame_1="e:back.out;st:230;sp:500;sR:230;" data-frame_999="o:0;st:w;sR:8270;" data-frame_hover="c:#fff;bgc:#e51f22;" style="z-index:16;background-color:#111111;font-family:'Roboto';"><i class="fas fa-play"></i>
+                            </a>
+                            <!--
+                            -->
+                        </rs-slide>
+                    <?php endif; ?>
+                </rs-slides>
+            </rs-module>
+        </rs-module-wrap>
         <!-- Banner end-->
          <!--site-main start-->
          <div class="site-main">
@@ -305,189 +402,7 @@ get_header();
             </section>
             <!--service-section-end-->
             <!--portfolio-section-->
-            <section class="ttm-row portfolio-section clearfix">
-                <div class="container">
-                    <!-- row -->
-                    <div class="row">
-                        <div class="col-lg-12">
-                            <div class="ttm-tabs ttm-tab-style-03">
-                                <div class="d-lg-flex align-items-center justify-content-between">
-                                    <div class="ttm-bg ttm-col-bgcolor-yes ttm-bgcolor-grey ttm-bg ttm-left-span res-991-padding_top50 res-991-padding_right30  res-991-padding_bottom30 res-991-mt_40  res-991-mr_20">
-                                        <div class="ttm-col-wrapper-bg-layer ttm-bg-layer spacing-1">
-                                            <div class="ttm-col-wrapper-bg-layer-inner"></div>
-                                        </div>
-                                        <div class="layer-content">
-                                            <!-- section title -->
-                                            <div class="section-title margin_bottom45">
-                                                <div class="title-header">
-                                                    <h3>ABOUT PROJECTS</h3>
-                                                    <h2 class="title">Our Recent <span>Portfolio</span></h2>
-                                                </div>
-                                            </div><!-- section title end -->
-                                        </div>
-                                    </div>
-                                    <ul class="tabs portfolio-filter res-991-padding_bottom15 res-991-padding_top30">
-                                        <li class="tab active"><a href="#" data-filter="*"> All </a></li>
-                                        <li class="tab"><a href="#" data-filter=".Buildings">Buildings</a></li>
-                                        <li class="tab"><a href="#" data-filter=".Houses">Houses</a></li>
-                                        <li class="tab"><a href="#" data-filter=".Interior">Interior</a></li>
-                                        <li class="tab"><a href="#" data-filter=".Offices">Offices</a></li>
-                                    </ul>
-                                </div>
-                                <div class="content-tab">
-                                    <!-- content-inner -->
-                                    <div class="row isotope-project">
-                                        <div class="col-lg-4 col-md-4 col-sm-6 project_item Buildings Interior">
-                                            <!-- featured-imagebox-portfolio -->
-                                            <div class="featured-imagebox featured-imagebox-portfolio style1">
-                                                <!-- ttm-box-view-overlay -->
-                                                <div class="ttm-box-view-overlay ttm-portfolio-box-view-overlay">
-                                                    <!-- featured-thumbnail -->
-                                                    <div class="featured-thumbnail">
-                                                        <a href="benoit-architecture.html"> <img class="img-fluid" src="https://themetechmount.com/html/buildtab/images/portfolio/project01-650x700.jpg" alt="image"></a>
-                                                    </div><!-- featured-thumbnail end-->
-                                                    <div class="ttm-media-link">
-                                                        <a href="benoit-architecture.html" class="ttm_link"><i class="ti ti-plus"></i></a>
-                                                    </div>
-                                                </div><!-- ttm-box-view-overlay end-->
-                                                <div class="featured-content featured-content-portfolio">
-                                                    <div class="featured-title">
-                                                        <h3><a href="benoit-architecture.html">Interior Texture</a></h3>
-                                                    </div>
-                                                    <span class="category">
-                                                        <span>Buildings</span>,
-                                                        <span>Interior</span>
-                                                    </span>
-                                                </div>
-                                            </div><!-- featured-imagebox-portfolio -->
-                                        </div>
-                                        <div class="col-lg-4 col-md-4 col-sm-6 project_item Houses Offices">
-                                            <!-- featured-imagebox-portfolio -->
-                                            <div class="featured-imagebox featured-imagebox-portfolio style1">
-                                                <!-- ttm-box-view-overlay -->
-                                                <div class="ttm-box-view-overlay ttm-portfolio-box-view-overlay">
-                                                    <!-- featured-thumbnail -->
-                                                    <div class="featured-thumbnail">
-                                                        <a href="contemporary-cilla.html"> <img class="img-fluid" src="https://themetechmount.com/html/buildtab/images/portfolio/project02-650x700.jpg" alt="image"></a>
-                                                    </div><!-- featured-thumbnail end-->
-                                                    <div class="ttm-media-link">
-                                                        <a href="contemporary-cilla.html" class="ttm_link"><i class="ti ti-plus"></i></a>
-                                                    </div>
-                                                </div><!-- ttm-box-view-overlay end-->
-                                                <div class="featured-content featured-content-portfolio">
-                                                    <div class="featured-title">
-                                                        <h3><a href="contemporary-cilla.html">Benoit Architecture</a></h3>
-                                                    </div>
-                                                    <span class="category">
-                                                        <span>Houses</span>,
-                                                        <span>Offices</span>
-                                                    </span>
-                                                </div>
-                                            </div><!-- featured-imagebox-portfolio -->
-                                        </div>
-                                        <div class="col-lg-4 col-md-4 col-sm-6 project_item Offices Interior">
-                                            <!-- featured-imagebox-portfolio -->
-                                            <div class="featured-imagebox featured-imagebox-portfolio style1">
-                                                <!-- ttm-box-view-overlay -->
-                                                <div class="ttm-box-view-overlay ttm-portfolio-box-view-overlay">
-                                                    <!-- featured-thumbnail -->
-                                                    <div class="featured-thumbnail">
-                                                        <a href="house-of-cards.html"> <img class="img-fluid" src="https://themetechmount.com/html/buildtab/images/portfolio/project03-650x700.jpg" alt="image"></a>
-                                                    </div><!-- featured-thumbnail end-->
-                                                    <div class="ttm-media-link">
-                                                        <a href="house-of-cards.html" class="ttm_link"><i class="ti ti-plus"></i></a>
-                                                    </div>
-                                                </div><!-- ttm-box-view-overlay end-->
-                                                <div class="featured-content featured-content-portfolio">
-                                                    <div class="featured-title">
-                                                        <h3><a href="house-of-cards.html">Contemporary Villa</a></h3>
-                                                    </div>
-                                                    <span class="category">
-                                                        <span>Offices</span>,
-                                                        <span>Interior</span>
-                                                    </span>
-                                                </div>
-                                            </div><!-- featured-imagebox-portfolio -->
-                                        </div>
-                                        <div class="col-lg-4 col-md-4 col-sm-6 project_item Buildings Offices">
-                                            <!-- featured-imagebox-portfolio -->
-                                            <div class="featured-imagebox featured-imagebox-portfolio style1">
-                                                <!-- ttm-box-view-overlay -->
-                                                <div class="ttm-box-view-overlay ttm-portfolio-box-view-overlay">
-                                                    <!-- featured-thumbnail -->
-                                                    <div class="featured-thumbnail">
-                                                        <a href="benoit-architecture.html"> <img class="img-fluid" src="https://themetechmount.com/html/buildtab/images/portfolio/project04-650x700.jpg" alt="image"></a>
-                                                    </div><!-- featured-thumbnail end-->
-                                                    <div class="ttm-media-link">
-                                                        <a href="benoit-architecture.html" class="ttm_link"><i class="ti ti-plus"></i></a>
-                                                    </div>
-                                                </div><!-- ttm-box-view-overlay end-->
-                                                <div class="featured-content featured-content-portfolio">
-                                                    <div class="featured-title">
-                                                        <h3><a href="benoit-architecture.html">House of Cards</a></h3>
-                                                    </div>
-                                                    <span class="category">
-                                                        <span>Buildings</span>,
-                                                        <span>Offices</span>
-                                                    </span>
-                                                </div>
-                                            </div><!-- featured-imagebox-portfolio -->
-                                        </div>
-                                        <div class="col-lg-4 col-md-4 col-sm-6 project_item Buildings Interior">
-                                            <!-- featured-imagebox-portfolio -->
-                                            <div class="featured-imagebox featured-imagebox-portfolio style1">
-                                                <!-- ttm-box-view-overlay -->
-                                                <div class="ttm-box-view-overlay ttm-portfolio-box-view-overlay">
-                                                    <!-- featured-thumbnail -->
-                                                    <div class="featured-thumbnail">
-                                                        <a href="contemporary-cilla.html"> <img class="img-fluid" src="https://themetechmount.com/html/buildtab/images/portfolio/project05-650x700.jpg" alt="image"></a>
-                                                    </div><!-- featured-thumbnail end-->
-                                                    <div class="ttm-media-link">
-                                                        <a href="contemporary-cilla.html" class="ttm_link"><i class="ti ti-plus"></i></a>
-                                                    </div>
-                                                </div><!-- ttm-box-view-overlay end-->
-                                                <div class="featured-content featured-content-portfolio">
-                                                    <div class="featured-title">
-                                                        <h3><a href="contemporary-cilla.html">Kitchen and Living</a></h3>
-                                                    </div>
-                                                    <span class="category">
-                                                        <span>Buildings</span>,
-                                                        <span>Interior</span>
-                                                    </span>
-                                                </div>
-                                            </div><!-- featured-imagebox-portfolio -->
-                                        </div>
-                                        <div class="col-lg-4 col-md-4 col-sm-6 project_item Houses Interior">
-                                            <!-- featured-imagebox-portfolio -->
-                                            <div class="featured-imagebox featured-imagebox-portfolio style1">
-                                                <!-- ttm-box-view-overlay -->
-                                                <div class="ttm-box-view-overlay ttm-portfolio-box-view-overlay">
-                                                    <!-- featured-thumbnail -->
-                                                    <div class="featured-thumbnail">
-                                                        <a href="house-of-cards.html"> <img class="img-fluid" src="https://themetechmount.com/html/buildtab/images/portfolio/project06-650x700.jpg" alt="image"></a>
-                                                    </div><!-- featured-thumbnail end-->
-                                                    <div class="ttm-media-link">
-                                                        <a href="house-of-cards.html" class="ttm_link"><i class="ti ti-plus"></i></a>
-                                                    </div>
-                                                </div><!-- ttm-box-view-overlay end-->
-                                                <div class="featured-content featured-content-portfolio">
-                                                    <div class="featured-title">
-                                                        <h3><a href="house-of-cards.html">Structural Concrete</a></h3>
-                                                    </div>
-                                                    <span class="category">
-                                                        <span>Houses</span>,
-                                                        <span>Interior</span>
-                                                    </span>
-                                                </div>
-                                            </div><!-- featured-imagebox-portfolio -->
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
+            <?php get_template_part( 'template-parts/content', 'project' ); ?>
             <!--portfolio-section-end-->
             <!-- testimonial section -->
             <section class="ttm-row testimonial-section ttm-bgimage-yes bg-img2 ttm-bg ttm-bgcolor-grey clearfix">
