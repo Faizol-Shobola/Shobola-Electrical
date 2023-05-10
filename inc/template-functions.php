@@ -83,5 +83,43 @@ function project_init() {
     
     // register taxonomy
     register_taxonomy('project_category', 'project', array('hierarchical' => true, 'label' => 'Category', 'query_var' => true, 'rewrite' => array( 'slug' => 'project-category' )));
+	}
+	add_action( 'init', 'project_init' );
+
+
+//custom post (clients)
+function client_init() {
+	// set up client labels
+	$labels = array(
+			'name' => 'Clients',
+			'singular_name' => 'client',
+			'add_new' => 'Add New Client',
+			'add_new_item' => 'Add New Client',
+			'edit_item' => 'Edit Client',
+			'new_item' => 'New Client',
+			'all_items' => 'All Clients',
+			'view_item' => 'View Client',
+			'search_items' => 'Search Clients',
+			'not_found' =>  'No Clients Found',
+			'not_found_in_trash' => 'No Client found in Trash', 
+			'parent_item_colon' => '',
+			'menu_name' => 'Clients',
+	);
+	
+	// register post type
+	$args = array(
+			'labels' => $labels,
+			'public' => true,
+			'has_archive' => true,
+			'show_ui' => true,
+			'capability_type' => 'post',
+			'hierarchical' => false,
+			'rewrite' => array('slug' => 'client'),
+			'query_var' => true,
+			'menu_icon' => 'dashicons-businessman',
+			'supports' => array('title','editor','excerpt','trackbacks','custom-fields',
+													'comments','revisions','thumbnail','author','page-attributes')
+	);
+	register_post_type( 'client', $args );
 }
-add_action( 'init', 'project_init' );
+	add_action( 'init', 'client_init' );
