@@ -160,7 +160,7 @@ get_header();
                                                     <div class="featured-desc">
                                                         <p>We've team of skilled people with different maintenance experts specialties</p>
                                                     </div>
-                                                    <a class="ttm-btn btn-inline ttm-btn-size-md ttm-icon-btn-right ttm-textcolor-darkgreycolor" href="general-builder.html">Read More</a>
+                                                    <a class="ttm-btn btn-inline ttm-btn-size-md ttm-icon-btn-right ttm-textcolor-darkgreycolor" href="general-builder.html">Read More<i class="fa fa-long-arrow-right"></i></a></a>
                                                 </div>
                                             </div>
                                         </div>
@@ -178,7 +178,7 @@ get_header();
                                                     <div class="featured-desc">
                                                         <p>The variety of tasks that help create safe and comfortable living environment</p>
                                                     </div>
-                                                    <a class="ttm-btn btn-inline ttm-btn-size-md ttm-icon-btn-right ttm-textcolor-darkgreycolor" href="house-extensions.html">Read More</a>
+                                                    <a class="ttm-btn btn-inline ttm-btn-size-md ttm-icon-btn-right ttm-textcolor-darkgreycolor" href="house-extensions.html">Read More<i class="fa fa-long-arrow-right"></i></a></a>
                                                 </div>
                                             </div>
                                         </div>
@@ -275,7 +275,7 @@ get_header();
                                             <div class="featured-desc">
                                                 <p>Uncompromised level of quality throughout the work</p>
                                             </div>
-                                            <a class="ttm-btn btn-inline ttm-btn-size-md ttm-icon-btn-right ttm-btn-color-skincolor" href="general-builder.html">Learn More</a>
+                                            <a class="ttm-btn btn-inline ttm-btn-size-md ttm-icon-btn-right ttm-btn-color-skincolor" href="general-builder.html">Learn More<i class="fa fa-long-arrow-right"></i></a></a>
                                         </div>
                                     </div>
                                 </div>
@@ -293,7 +293,7 @@ get_header();
                                             <div class="featured-desc">
                                                 <p>Tailored as per the requirements of an individual one</p>
                                             </div>
-                                            <a class="ttm-btn btn-inline ttm-btn-size-md ttm-icon-btn-right ttm-btn-color-skincolor" href="house-extensions.html">Learn More</a>
+                                            <a class="ttm-btn btn-inline ttm-btn-size-md ttm-icon-btn-right ttm-btn-color-skincolor" href="house-extensions.html">Learn More<i class="fa fa-long-arrow-right"></i></a></a>
                                         </div>
                                     </div>
                                 </div>
@@ -311,7 +311,7 @@ get_header();
                                             <div class="featured-desc">
                                                 <p>Desire to carry activities without depleting resources</p>
                                             </div>
-                                            <a class="ttm-btn btn-inline ttm-btn-size-md ttm-icon-btn-right ttm-btn-color-skincolor" href="electrical-services.html">Learn More</a>
+                                            <a class="ttm-btn btn-inline ttm-btn-size-md ttm-icon-btn-right ttm-btn-color-skincolor" href="electrical-services.html">Learn More<i class="fa fa-long-arrow-right"></i></a></a>
                                         </div>
                                     </div>
                                 </div>
@@ -329,7 +329,7 @@ get_header();
                                             <div class="featured-desc">
                                                 <p>Decide how long will take you to perform small design task.</p>
                                             </div>
-                                            <a class="ttm-btn btn-inline ttm-btn-size-md ttm-icon-btn-right ttm-btn-color-skincolor" href="civil-structure.html">Learn More</a>
+                                            <a class="ttm-btn btn-inline ttm-btn-size-md ttm-icon-btn-right ttm-btn-color-skincolor" href="civil-structure.html">Learn More<i class="fa fa-long-arrow-right"></i></a></a>
                                         </div>
                                     </div>
                                 </div>
@@ -350,7 +350,7 @@ get_header();
                                                 <div class="featured-desc">
                                                     <p>Expertise of all our qualified builders and hardworking employees to offer excellence in terms of provided the following services.</p>
                                                 </div>
-                                                <a class="ttm-btn btn-inline ttm-btn-size-md ttm-icon-btn-right ttm-btn-color-skincolor" href="about-us-2.html">Learn More</a>
+                                                <a class="ttm-btn btn-inline ttm-btn-size-md ttm-icon-btn-right ttm-btn-color-skincolor" href="about-us-2.html">Learn More<i class="fa fa-long-arrow-right"></i></a></a>
                                             </div>
                                         </div>
                                     </div>
@@ -371,7 +371,7 @@ get_header();
                                                     <div class="featured-desc">
                                                         <p>Uncompromised level of quality throughout the work</p>
                                                     </div>
-                                                    <a class="ttm-btn btn-inline ttm-btn-size-md ttm-icon-btn-right ttm-btn-color-skincolor" href="disaster-response.html">Learn More</a>
+                                                    <a class="ttm-btn btn-inline ttm-btn-size-md ttm-icon-btn-right ttm-btn-color-skincolor" href="disaster-response.html">Learn More<i class="fa fa-long-arrow-right"></i></a></a>
                                                 </div>
                                             </div>
                                         </div>
@@ -389,7 +389,7 @@ get_header();
                                                     <div class="featured-desc">
                                                         <p>The outside or all of the external faces of a building</p>
                                                     </div>
-                                                    <a class="ttm-btn btn-inline ttm-btn-size-md ttm-icon-btn-right ttm-btn-color-skincolor" href="general-builder.html">Learn More</a>
+                                                    <a class="ttm-btn btn-inline ttm-btn-size-md ttm-icon-btn-right ttm-btn-color-skincolor" href="general-builder.html">Learn More<i class="fa fa-long-arrow-right"></i></a></a>
                                                 </div>
                                             </div>
                                         </div>
