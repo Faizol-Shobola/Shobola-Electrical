@@ -53,25 +53,6 @@ function shobola_electrical_setup() {
 		)
 	);
 
-	/**
-	 * Register Custom Post types
-	 */
-	function Testimonial_post_type() {
-		$args = array (
-			'labels'      => array(
-				'name'          => 'Testimonials',
-				'singular_name' => 'testimonial',
-			),
-			'public'      => true,
-			'hierarchical' => true,
-			'has_archive' => true,
-			'rewrite'     => array( 'slug' => 'testimonials' ),
-			'supports' =>  array('title', 'editor', 'thumbnail', 'custom-fields'),
-			
-		);
-		register_post_type('testimonials', $args );
-	}
-	add_action('init', 'Testimonial_post_type');
 
 	/**
 	 * Register Custom Post types

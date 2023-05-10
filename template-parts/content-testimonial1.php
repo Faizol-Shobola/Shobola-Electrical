@@ -1,5 +1,5 @@
 <?php $query_args = array(
-    'post_type' => 'testimonials',
+    'post_type' => 'testimonial',
     'posts_per_page' => 6,
     'order' => 'rand',
 );
