@@ -56,66 +56,56 @@
                         <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4 widget-area">
                             <div class="widget-latest-tweets mt_140 res-991-margin_top0 clearfix">
                                 <div class="widgte-text">
-                                    <div class="widgte-title">
-                                        <h4>Opening Hours</h4>
-                                    </div>
-                                    <ul class="ttm-timelist-block">
-                                        <li>Mon-Friday<span class="service-time">09:00 - 20:00</span></li>
-                                        <li>Saturday<span class="service-time">09:00 - 12:00</span></li>
-                                        <li>Sunday <span class="sundaylist">Close</span></li>
-                                    </ul>
-                                    <div class="widgte-title">
-                                        <h4>About Us</h4>
-                                    </div>
-                                    <div class="">
-                                        <p>BuildTab is established in 1984, the world’s most trusted infrastructure and consulting firm in world wide.</p>
-                                    </div>
-                                    <div class="widget_social padding_top10 clearfix">
-                                        <div class="social-icons">
-                                            <ul class="social-icons list-inline">
-                                                <li><a class="tooltip-top" href="https://www.facebook.com/themetechMount18" rel="noopener" aria-label="facebook" data-tooltip="Facebook">
-                                                        <i class="fa fa-facebook"></i></a></li>
-                                                <li><a class="tooltip-top" href="https://www.instagram.com/theme_tech_mount/" rel="noopener" aria-label="instagram" data-tooltip="instagram">
-                                                        <i class="fa fa-instagram"></i></a></li>
-                                                <li><a class="tooltip-top" href="https://www.linkedin.com/company/themetech-mount/" rel="noopener" aria-label="twitter" data-tooltip="Twitter">
-                                                        <i class="fa fa-linkedin"></i></a></li>
-                                                <li><a class="tooltip-top" href="https://in.pinterest.com/themetechmount/_created/" rel="noopener" aria-label="linkedin" data-tooltip="Linkedin"><i class="fa fa-pinterest-p"></i></a></li>
-                                            </ul>
-                                        </div>
-                                    </div>
+                                    <?php if(is_active_sidebar('opening-hours')): ?>
+                                    <?php dynamic_sidebar('opening-hours');?>
+                                    <?php endif;?> 
+
+                                    <?php if(is_active_sidebar('footer-info')): ?>
+                                    <?php dynamic_sidebar('footer-info');?>
+                                    <?php endif;?>
+
+                                    <?php if(is_active_sidebar('social-media')): ?>
+                                    <?php dynamic_sidebar('social-media');?>
+                                    <?php endif;?>
+                                   
                                 </div>
                             </div>
                         </div>
                         <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4 widget-area">
                             <div class="widget widget_nav_menu clearfix">
-                                <h3 class="widget-title">Our Services</h3>
-                                <ul id="menu-footer-quick-links">
-                                    <li><a href="#"> <i class="fa fa-arrow-right"></i>About Company</a></li>
-                                    <li><a href="#"><i class="fa fa-arrow-right"></i>Free Consultation</a></li>
-                                    <li><a href="#"><i class="fa fa-arrow-right"></i>Our Services</a></li>
-                                    <li><a href="#"><i class="fa fa-arrow-right"></i>Chemistry</a></li>
-                                    <li><a href="#"><i class="fa fa-arrow-right"></i>Forensic science</a></li>
-                                </ul>
+                                <?php if(is_active_sidebar('menu')): ?>
+                                    <?php dynamic_sidebar('menu');?>
+                                <?php endif;?>
                             </div>
                         </div>
                         <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4 widget-area">
                             <div class="widget widget-recent-post clearfix">
                                 <h3 class="widget-title">Recent Posts</h3>
                                 <ul class="widget-post ttm-recent-post-list">
+                                    <?php $related = get_posts( 
+                                        array(  
+                                        'numberposts' => 2, 
+                                        'orderby' => 'desc',
+                                        'post__not_in' => array($post->ID) ) ); 
+
+                                        if( $related ) 
+                                            foreach( $related as $post ) { setup_postdata($post); 
+                                    ?>
                                     <li>
-                                        <a href="blog-right-sidebar.html"><img class="img-fluid" src="images/blog/b_thumbb-01.jpg" alt="post-img"></a>
+                                        <a href="blog-right-sidebar.html">
+                                        <?php if(has_post_thumbnail()):?>
+                                            <img class="img-fluid" src="<?php echo get_the_post_thumbnail_url($post->ID, array(130,130));?>" alt="<?php the_title(); ?>">
+                                        <?php endif;?>
+                                        </a>
                                         <div class="post-detail">
-                                            <span class="post-date"><i class="fa fa-calendar"></i>May 21, 2021</span>
-                                            <a href="blog-right-sidebar.html">Improve Workflow With Agile <br> Construction</a>
+                                            <span class="post-date"><i class="fa fa-calendar"></i><?php echo get_the_date('jS F, Y');?></span>
+                                            <a href="<?php the_permalink(); ?>"><?php the_title(); ?></a>
                                         </div>
                                     </li>
-                                    <li>
-                                        <a href="blog-right-sidebar.html"><img class="img-fluid" src="images/blog/b_thumbb-02.jpg" alt="post-img"></a>
-                                        <div class="post-detail">
-                                            <span class="post-date"><i class="fa fa-calendar"></i>Apri 28, 2021</span>
-                                            <a href="blog-right-sidebar.html">What Are The Benefits Of LEED <br> Certification?</a>
-                                        </div>
-                                    </li>
+                                    <?php 
+                                        } 
+                                        wp_reset_postdata(); 
+                                    ?>
                                 </ul>
                             </div>
                         </div>
@@ -126,7 +116,11 @@
                         <div class="row">
                             <div class="col-sm-6">
                                 <div class="text-left">
-                                    <span class="cpy-text"> Copyright © 2021 <a href="#" class=" font-weight-500"> Buildtab </a> Template by &nbsp;<a href="https://themetechmount.com/">Themetechmount</a></span>
+                                    <span class="cpy-text"> 
+                                        <?php if(is_active_sidebar('footer-copyright')):?>
+                                        <?php dynamic_sidebar('footer-copyright');?>
+                                        <?php endif;?>
+                                    </span>
                                 </div>
                             </div>
                         </div>

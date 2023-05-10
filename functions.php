@@ -183,6 +183,61 @@ function shobola_electrical_widgets_init() {
 			'after_title'   => '</h3>',
 		)
 	);
+	register_sidebar(
+		array(
+			'name'          => esc_html__( 'Opening-hours', 'shobola-electrical' ),
+			'id'            => 'opening-hours',
+			'description'   => esc_html__( 'Add widgets here.', 'shobola-electrical' ),
+			'before_widget' => '<div>',
+			'after_widget'  => '</div>',
+			'before_title'  => '<div class="widgte-title"><h4>',
+			'after_title'   => '</h4></div>',
+		)
+	);
+	register_sidebar(
+		array(
+			'name'          => esc_html__( 'Footer-info', 'shobola-electrical' ),
+			'id'            => 'footer-info',
+			'description'   => esc_html__( 'Add widgets here.', 'shobola-electrical' ),
+			'before_widget' => '<div>',
+			'after_widget'  => '</div>',
+			'before_title'  => '<div class="widgte-title"><h4>',
+			'after_title'   => '</h4></div>',
+		)
+	);
+	register_sidebar(
+		array(
+			'name'          => esc_html__( 'Footer-copyright', 'shobola-electrical' ),
+			'id'            => 'footer-copyright',
+			'description'   => esc_html__( 'Add widgets here.', 'shobola-electrical' ),
+			'before_widget' => '<div>',
+			'after_widget'  => '</div>',
+			'before_title'  => '<div class="widgte-title"><h4>',
+			'after_title'   => '</h4></div>',
+		)
+	);
+	register_sidebar(
+		array(
+			'name'          => esc_html__( 'Social-media', 'shobola-electrical' ),
+			'id'            => 'social-media',
+			'description'   => esc_html__( 'Add widgets here.', 'shobola-electrical' ),
+			'before_widget' => '<div class="widget with-title">',
+			'after_widget'  => '</div>',
+			'before_title'  => '<h3 class="widget-title">',
+			'after_title'   => '</h3>',
+		)
+	);
+	register_sidebar(
+		array(
+			'name'          => esc_html__( 'Menu', 'shobola-electrical' ),
+			'id'            => 'menu',
+			'description'   => esc_html__( 'Add widgets here.', 'shobola-electrical' ),
+			'before_widget' => '<div class="widget with-title">',
+			'after_widget'  => '</div>',
+			'before_title'  => '<h3 class="widget-title">',
+			'after_title'   => '</h3>',
+		)
+	);
 }
 add_action( 'widgets_init', 'shobola_electrical_widgets_init' );
 
