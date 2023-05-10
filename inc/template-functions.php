@@ -63,7 +63,7 @@ function project_init() {
         'show_ui' => true,
         'capability_type' => 'post',
         'hierarchical' => false,
-        'rewrite' => array('slug' => 'project'),
+        'rewrite' => array('slug' => 'projects'),
         'query_var' => true,
         'menu_icon' => 'dashicons-hammer',
         'supports' => array(
