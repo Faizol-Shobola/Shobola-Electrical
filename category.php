@@ -48,47 +48,42 @@ get_header();
                 <?php endwhile; endif; ?>
                 <div class="pagination-block">
                     <?php
-global $wp_query;
-						
-$big = 999999999; // need an unlikely integer
+                      global $wp_query;
+                                  
+                      $big = 999999999; // need an unlikely integer
 
-$pages = paginate_links(array(
-    'base'      => str_replace( $big, '%#%', esc_url( get_pagenum_link( $big ) ) ),
-	'format'    => '?paged=%#%',
-    'current' => max(1, get_query_var('paged')),
-    'total' => $wp_query->max_num_pages,
-	'type'      => 'array',
-    'prev_text' => __('<i class="ti ti-arrow-left"></i>'),
-    'next_text' => __('<i class="ti ti-arrow-right"></i>'),
-));
+                      $pages = paginate_links(array(
+                          'base'      => str_replace( $big, '%#%', esc_url( get_pagenum_link( $big ) ) ),
+                        'format'    => '?paged=%#%',
+                          'current' => max(1, get_query_var('paged')),
+                          'total' => $wp_query->max_num_pages,
+                        'type'      => 'array',
+                          'prev_text' => __('<i class="ti ti-arrow-left"></i>'),
+                          'next_text' => __('<i class="ti ti-arrow-right"></i>'),
+                      ));
 
-if ($pages) {
-    echo '<div class="pagination">';
-    $current_page = max(1, get_query_var('paged'));
-    $last_page = $wp_query->max_num_pages;
+                      if ($pages) {
+                          echo '<div class="pagination">';
+                          $current_page = max(1, get_query_var('paged'));
+                          $last_page = $wp_query->max_num_pages;
 
-    if ($current_page !== 1) {
-        echo '<a class="first page-numbers" href="' . esc_url(get_pagenum_link(1)) . '">First</a>';
-        
-    }
+                          if ($current_page !== 1) {
+                              echo '<a class="first page-numbers" href="' . esc_url(get_pagenum_link(1)) . '">First</a>';
+                              
+                          }
 
-    foreach ($pages as $page) {
-        $class = (strpos($page, 'current ') !== false) ? 'current' : '';
-        echo '<span class="page-numbers ' . $class . '">' . $page . '</span>';
-    }
+                          foreach ($pages as $page) {
+                              $class = (strpos($page, 'current ') !== false) ? 'current' : '';
+                              echo '<span class="page-numbers ' . $class . '">' . $page . '</span>';
+                          }
 
-    if ($current_page !== $last_page) {
-        echo '<a class="last page-numbers" href="' . esc_url(get_pagenum_link($last_page)) . '">Last</a>';    
-    }
+                          if ($current_page !== $last_page) {
+                              echo '<a class="last page-numbers" href="' . esc_url(get_pagenum_link($last_page)) . '">Last</a>';    
+                          }
 
-    echo '</div>';
-}
-?>
-
-                    <!-- <a class="page-numbers current">1</a>
-                    <a class="page-numbers" href="#">2</a>
-                    <a class="next page-numbers" href="#">
-                        <i class="ti ti-arrow-right"></i></a> -->
+                          echo '</div>';
+                      }
+                      ?>
                 </div>
               </div>
               <!-- Sidebar -->
