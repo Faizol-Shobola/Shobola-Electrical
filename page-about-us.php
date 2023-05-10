@@ -361,55 +361,7 @@ get_header();
             <div class="ttm-row padding_zero-section clearfix">
                 <div class="container">
                     <div class="row slick_slider" data-slick='{"slidesToShow": 5, "slidesToScroll": 1, "arrows":false, "autoplay":false, "infinite":true, "responsive": [{"breakpoint":1200,"settings":{"slidesToShow": 3}}, {"breakpoint":1024,"settings":{"slidesToShow": 3}}, {"breakpoint":777,"settings":{"slidesToShow": 1}},{"breakpoint":575,"settings":{"slidesToShow": 1}},{"breakpoint":400,"settings":{"slidesToShow": 1}}]}'>
-                        <div class="col-lg-12">
-                            <div class="client-box">
-                                <div class="client-thumbnail res-575-margin_top0">
-                                    <img class="img-fluid auto_size" width="160" height="98" src="images/client/client-01.png" alt="image">
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-12">
-                            <div class="client-box">
-                                <div class="client-thumbnail res-575-margin_top0">
-                                    <img class="img-fluid auto_size" width="160" height="98" src="images/client/client-02.png" alt="image">
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-12">
-                            <div class="client-box">
-                                <div class="client-thumbnail res-575-margin_top0">
-                                    <img class="img-fluid auto_size" width="160" height="98" src="images/client/client-03.png" alt="image">
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-12">
-                            <div class="client-box">
-                                <div class="client-thumbnail res-575-margin_top0">
-                                    <img class="img-fluid auto_size" width="160" height="98" src="images/client/client-04.png" alt="image">
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-12">
-                            <div class="client-box">
-                                <div class="client-thumbnail res-575-margin_top0">
-                                    <img class="img-fluid auto_size" width="160" height="98" src="images/client/client-05.png" alt="image">
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-12">
-                            <div class="client-box">
-                                <div class="client-thumbnail res-575-margin_top0">
-                                    <img class="img-fluid auto_size" width="160" height="98" src="images/client/client-06.png" alt="image">
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-12">
-                            <div class="client-box">
-                                <div class="client-thumbnail res-575-margin_top0">
-                                    <img class="img-fluid auto_size" width="160" height="98" src="images/client/client-07.png" alt="image">
-                                </div>
-                            </div>
-                        </div>
+                            <?php get_template_part( 'template-parts/content', 'client')?>  
                     </div><!-- row end -->
                 </div>
             </div>

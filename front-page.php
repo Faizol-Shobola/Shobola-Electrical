@@ -604,59 +604,11 @@ get_header();
                         </div>
                     </div>
                     <div class="margin_top90 padding_bottom30 res-991-margin_top50">
-                        <div class="padding_left15 padding_right15">
+                        <div class="padding_left15 text-center padding_right15">
                             <h3 class="title">Our Valuable <span>Clients</span></h3>
                         </div>
                         <div class="row slick_slider" data-slick='{"slidesToShow": 6, "slidesToScroll": 1, "arrows":false, "autoplay":false, "infinite":true, "responsive": [{"breakpoint":1200,"settings":{"slidesToShow": 5}}, {"breakpoint":1024,"settings":{"slidesToShow": 4}}, {"breakpoint":777,"settings":{"slidesToShow": 3}},{"breakpoint":575,"settings":{"slidesToShow": 2}},{"breakpoint":400,"settings":{"slidesToShow": 1}}]}'>
-                            <div class="col-lg-12">
-                                <div class="client-box style1">
-                                    <div class="client-thumbnail">
-                                        <img class="img-fluid auto_size" width="160" height="98" src="https://themetechmount.com/html/buildtab/images/client/client-01.png" alt="image">
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-lg-12">
-                                <div class="client-box style1">
-                                    <div class="client-thumbnail">
-                                        <img class="img-fluid auto_size" width="160" height="98" src="https://themetechmount.com/html/buildtab/images/client/client-02.png" alt="image">
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-lg-12">
-                                <div class="client-box style1">
-                                    <div class="client-thumbnail">
-                                        <img class="img-fluid auto_size" width="160" height="98" src="https://themetechmount.com/html/buildtab/images/client/client-03.png" alt="image">
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-lg-12">
-                                <div class="client-box style1">
-                                    <div class="client-thumbnail">
-                                        <img class="img-fluid auto_size" width="160" height="98" src="https://themetechmount.com/html/buildtab/images/client/client-04.png" alt="image">
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-lg-12">
-                                <div class="client-box style1">
-                                    <div class="client-thumbnail">
-                                        <img class="img-fluid auto_size" width="160" height="98" src="https://themetechmount.com/html/buildtab/images/client/client-05.png" alt="image">
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-lg-12">
-                                <div class="client-box style1">
-                                    <div class="client-thumbnail">
-                                        <img class="img-fluid auto_size" width="160" height="98" src="https://themetechmount.com/html/buildtab/images/client/client-06.png" alt="image">
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-lg-12">
-                                <div class="client-box style1">
-                                    <div class="client-thumbnail">
-                                        <img class="img-fluid auto_size" width="160" height="98" src="https://themetechmount.com/html/buildtab/images/client/client-07.png" alt="image">
-                                    </div>
-                                </div>
-                            </div>
+                            <?php get_template_part( 'template-parts/content', 'client')?>  
                         </div><!-- row end -->
                     </div>
                 </div>
